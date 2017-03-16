@@ -1,0 +1,79 @@
+			Conferences for which I have reviewed papers
+				(a non-exhaustive list)
+
+2016:
+IEEE ICDM 2016
+IEEE WCNC 2016 (4 papers)
+PerCom CASPer 2016 (3 papers)
+ComNet-IOT 2016 (3 papers)
+AAAI Trust 2016 (2 papers)
+BIH 2016 (4 papers; delegated)
+MobiSPC 2016 (2 papers; delegated)
+PST 2016 (3 papers)
+QTNA 2016
+
+2015:
+ACM KDD 2015
+ICCVE 2015
+MobiSPC 2015 (1 paper; delegated)
+IEEE WCNC 2015 (3 papers; 1 delegated & 2 reviewed)
+ICMU 2015 (Int'l Conf on Mobile Computing and Ubiquitous Networking)
+
+2014:
+IEEE MASS 2014
+IEEE WCNC 2014 (3 papers; delegated)
+IEEE SenseApp 2014 (3 papers; delegated)
+IEEE ISSNIP 2014 (16 papers; symposium chair; assigned to TPC)
+ICCVE 2014 (delegated)
+
+2013:
+ICMU 2013 (Int'l Conf on Mobile Computing and Ubiquitous Networking)
+IEEE SenseApp 2013 (3 papers; 1 delegated & 2 reviewed)
+ICUFN 2013
+IEEE WCNC 2013 (4 papers; delegated)
+IEEE ICC 2013
+IEEE AINA 2013
+IEEE ISSNIP 2013 IoT wksp (2 papers)
+
+2012:
+IEEE Globecom 2012 (BWA track)
+IEEE ICCS 2012
+IEEE ICCC 2012 (2 papers)
+KICSS 2012
+
+2010:
+IEEE DySPAN 2010 (non-EDAS)
+COMSNETS 2010
+
+2009:
+IEEE INFOCOM 2009 (2 papers)
+IEEE SECON 2009
+IEEE Globecom 2009 (AHSN track)
+IEEE ICC 2009 (CoCoNet)
+
+2008:
+IEEE INFOCOM 2008 (3 papers)
+IEEE SECON 2008 (4 papers)
+ACM ICDCS 2008 (non-EDAS)
+IEEE MASS 2008 (2 papers)
+IEEE Globecom 2008 (AHSN track)
+IEEE VTC 2008-Spring
+IEEE WiNC 2008
+HiPC 2008 (2 papers)
+IEEE COMSWARE 2008
+
+2007:
+ACM MobiCom 2007 (non-EDAS)
+IEEE COMSWARE 2007
+M-CSC 2007
+ACM MSWiM 2007
+
+2006:
+ACM MSWiM 2006 (3 papers)
+IEEE ICCS 2006 (6 papers)
+ISWPC 2006 (4 papers)
+
+2005:
+ICCT 2005
+
+[Note] Unless otherwise specified, I have reviewed one paper for each of the above conferences.

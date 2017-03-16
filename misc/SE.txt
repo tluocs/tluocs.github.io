@@ -1,0 +1,19 @@
+Position:	Software Engineer
+
+[Responsibilities]
+Design and develop a mobile application on iOS/Android devices, with backend server support.
+
+[Requirements]
+- Bachelor degree or Polytechnic diploma in the discipline of computer science, electrical engineering, information systems, multimedia technology, or a similar course of study
+- Proficient in iOS or Android programming
+- Familiar with web service development using PHP, MySQL, Javascript, etc.
+- Self-motivated
+
+[Contract Period]
+1-3 years; renewable.
+
+[Remuneration Package]
+Competitive in comparison to the market standard.
+
+[How to Apply]
+Send your resume to luot@i2r.a-star.edu.sg. Appreciate your understanding that only shortlisted candidates will be notified.

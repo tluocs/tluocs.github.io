@@ -1,0 +1,77 @@
+IEEE ISSNIP 2014 Symposium on Participatory Sensing and Crowdsourcing (PSC)
+
+http://issnip2014.i2r.a-star.edu.sg/symposium.php#psc
+
+April 21-24, 2014, Singapore
+
+------------------------------------------------------------------------------
+
+IMPORTANT DATES:
+
+Paper Submission Deadline (Firm): 08 Dec 2013
+
+Paper Acceptance Notification: 17 Jan 2014
+
+Camera Ready Manuscript Deadline: 07 Feb 2014
+
+
+SCOPE
+
+The recent wave of sensor-rich, Internet-enabled, smart mobile devices has opened the door for a novel paradigm for monitoring the urban landscape known as participatory sensing. Using this paradigm, ordinary citizens can collect multi-modal data streams (e.g., audio, video, sound, location coordinates, etc.) from the surrounding environment using their mobile devices and share the same using existing communication infrastructure (e.g., cellular services or WiFi access points). The data contributed from multiple participants can be combined to  build a spatiotemporal view of the phenomenon of interest and also to extract important community statistics. Given the ubiquity of mobile phones and the high density of people in metropolitan areas, participatory sensing can achieve an unprecedented level of coverage in both space and time for observing events of interest in urban spaces. 
+
+The Participatory Sensing and Crowdsourcing symposium at ISSNIP 2014 is designed to attract diverse participation from researchers and practitioners working at the leading edge in participatory sensing and crowdsourcing technologies. This necessarily covers a broad spectrum of topics, representative of the cross-cutting nature of the area -- from novel applications, to making sense of large-scale sensor data, to human computer interaction, to practical experiments. 
+
+We solicit original and unpublished manuscripts on various aspects of participatory sensing, including (but not limited to) the following topics: 
+
+- Novel smartphone-based sensing or crowdsourcing applications
+- Participatory sensing, opportunistic sensing and crowdsourcing paradigms
+- Middleware support and programming models
+- Mining large scale multi-modal sensor data
+- Intersections with cloud technologies
+- Interactions between mobile devices and humans
+- Novel user interfaces
+- Energy-efficient sensing
+- Activity recognition and high-level inferences
+- User privacy issues
+- Incentive mechanisms to motivate participation
+- Assessing data trustworthiness
+- Synergies between online social networks and participatory sensing
+- Application deployment issues and experiences with large-scale deployment
+
+
+FORMATTING GUIDELINES
+
+Please follow the IEEE ISSNIP 2014 Formatting:
+http://issnip2014.i2r.a-star.edu.sg/authors.php
+
+
+SYMPOSIUM CHAIRS
+
+Salil Kanhere, The University of New South Wales, Australia
+
+Tony Tie Luo, Institute for Infocomm Research, Singapore
+
+
+TECHNICAL PROGRAMME COMMITTEE MEMBERS
+(in alphabetic order)
+
+Delphine Christin, Technical University Darmstadt, Germany
+Chun Tung Chou, The University of New South Wales, Australia
+Pradipta De, SUNY, Korea
+Raghu Ganti, IBM Research, USA
+Vana Kalogeraki, Athens University of Economics and Business, Greece
+Ioannis Krontiris, Goethe University Frankfurt, Germany
+Kun-Chan Lan, National Cheng Kung University, Taiwan
+Archan Misra, Singapore Management University, Singapore
+Thanasis Papaioannou, EPFL, Switzerland
+Venkataraman Ramakrishna, IBM Research, India
+Rajib Rana, CSIRO, Australia
+Andreas Reinhardt, The University of New South Wales, Australia
+Paul Roe, Queensland University of Technology, Australia
+Vijay Sivaraman, The University of New South Wales, Australia
+Aniruddha Sinha, Tata Consultancy Services, India
+Chen-Khong Tham, National University of Singapore, Singapore
+Kuldeep Yadav, Xerox Research, India
+Zhixian Yan, Samsung Research, USA
+Dejun Yang, Colorado School of Mines, USA
+Demetris Zeinalipour, University of Cyprus, Cyprus

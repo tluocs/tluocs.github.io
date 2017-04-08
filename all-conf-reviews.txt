@@ -1,10 +1,14 @@
 			Conferences for which I have reviewed papers
 				(a non-exhaustive list)
 
+2017:
+IEEE PerCom CASPer 2017 (3 papers)
+IEEE DCOSS 2017 (3 papers; delegated)
+
 2016:
 IEEE ICDM 2016
 IEEE WCNC 2016 (4 papers)
-PerCom CASPer 2016 (3 papers)
+IEEE PerCom CASPer 2016 (3 papers)
 ComNet-IOT 2016 (3 papers)
 AAAI Trust 2016 (2 papers)
 BIH 2016 (4 papers; delegated)

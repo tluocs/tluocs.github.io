@@ -2,6 +2,8 @@
 				(a non-exhaustive list)
 
 2017:
+IEEE Globecom 2017
+IEEE UIC 2017
 IEEE PerCom CASPer 2017 (3 papers)
 IEEE DCOSS 2017 (3 papers; delegated)
 

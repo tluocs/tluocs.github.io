@@ -1,5 +1,13 @@
-			Conferences for which I have reviewed papers
-				(a non-exhaustive list)
+			Conferences Papers I Review:
+			   a non-exhaustive list
+
+* The number of papers I review for each conference is one unless otherwise specified.
+
+2018:
+IEEE INFOCOM 2018 (12 papers)
+IEEE WOWMOM 2018 (4 papers)
+IEEE PerCom CASPer 2018 (2 papers)
+ComNet-IoT 2018 (3 papers)
 
 2017:
 IEEE Globecom 2017
@@ -82,4 +90,3 @@ ISWPC 2006 (4 papers)
 2005:
 ICCT 2005
 
-[Note] Unless otherwise specified, I have reviewed one paper for each of the above conferences.

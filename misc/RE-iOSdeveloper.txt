@@ -1,0 +1,21 @@
+Job Position:	Research Engineer (iOS Developer and UI designer)
+
+You will be in charge of designing and developing iOS mobile application systems that have backend support (such as the Amazon EC2 cloud).
+These systems will be using both off-the-shelf and laboratory technologies where the latter is innovative research outcomes that clearly differentiate these systems from anyone else in the market.
+All development equipments (iPhone, iPad, MacBook Pro) will be provided.
+
+[Requirements]
+- Bachelor degree or Polytechnic diploma in any discipline, perferrably information technology related
+- Well versed in iOS application development
+- Have a good aesthetic sense and are familiar with UI design using tools such as Adobe Photoshop, Illustrator, Fireworks, After Effects, or tools alike.
+- Familiar with programming with MySQL database and scripting languages/frameworks (e.g., PHP/Yii, Ruby on Rails, JavaScript, etc.)
+- Resourceful and self-motivated
+
+[Contract Period]
+1-3 years; renewable
+
+[Remuneration Package]
+Competitive in comparison to the market standard
+
+[How to Apply]
+Send your resume to luot@i2r.a-star.edu.sg, with your resume/CV and supplementary documents if any.

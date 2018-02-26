@@ -14,7 +14,11 @@ DOI: \1><font color=black>\2</font></a>
 \[DOI: <i><a href=(.*)>(.*)</a></i>\]
 <font size=2>[DOI: <a style="text-decoration:none" href=\1><font color=black>\2</font></a>]</font>
 
-	---------- publications.html ----------
 * for DOI that do not have links, intelligently add links (as well as change font size and color):
 find: \[DOI: ([0-9a-zA-Z./]+)\]
 replace with: <font size=2>[DOI: <a style="text-decoration:none" href="http://dx.doi.org/\1"><font color=black>\1</font></a>]</font>
+
+* replace [Venue'17] to <b>[Venue'17]</b>:
+find: \[([A-Za-z]+)'([0-9][0-9])\]
+replace with: <b>\[\1'\2\]</b>
+

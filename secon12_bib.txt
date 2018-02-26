@@ -1,0 +1,22 @@
+	[<a href="javascript:popupSECON12()"><font color=black>Bib</font></a>]
+	<script language="javascript" type="text/javascript">
+	<!--
+	function popupSECON12() {
+		newwindow2=window.open('','name','height=280,width=600');
+		var tmp = newwindow2.document;
+		tmp.write('<html><head><title>Bib</title>');
+		tmp.write('<link rel="stylesheet" href="js.css">');
+		tmp.write('</head><body>');
+		tmp.write('@conference{secon12ps,<br>'+
+		'author = {Tie Luo and Chen-Khong Tham},<br>'+
+		'title = {Fairness and Social Welfare in Incentivizing Participatory Sensing},<br>'+
+		'booktitle = {IEEE International Conference on Sensing, Communication, and Networking (SECON)},<br>'+
+		'pages = {425--433},<br>'+
+		'month = {June},<br>'+
+		'year = {2012}<br>}');
+		tmp.write('<p><a href="javascript:self.close()">close</a></p>');
+		tmp.write('</body></html>');
+		tmp.close();
+	}
+	// -->
+	</script>

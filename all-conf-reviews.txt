@@ -1,50 +1,51 @@
-			Conferences Papers I Review:
-			   a non-exhaustive list
+		Conference papers I have reviewed: A non-exhaustive list
 
-* The number of papers I review for each conference is one unless otherwise specified.
+* Unless otherwise specified, the number of papers I have reviewed for each conference is one.
 
 2018:
-IEEE INFOCOM 2018 (12 papers)
-IEEE WOWMOM 2018 (4 papers)
-IEEE PerCom CASPer 2018 (2 papers)
-ComNet-IoT 2018 (3 papers)
+IEEE INFOCOM 2018 (12 papers as TPC)
+IEEE WOWMOM 2018 (4 papers as TPC)
+IEEE MASS 2018 (5 papers as TPC)
+ICCCN 2018 (5 papers as TPC)
+IEEE PerCom CASPer 2018 (2 papers as TPC)
+ComNet-IoT 2018 (3 papers as TPC)
 
 2017:
 IEEE Globecom 2017
 IEEE UIC 2017
-IEEE PerCom CASPer 2017 (3 papers)
+IEEE PerCom CASPer 2017 (3 papers as TPC)
 IEEE DCOSS 2017 (3 papers; delegated)
 
 2016:
 IEEE ICDM 2016
-IEEE WCNC 2016 (4 papers)
-IEEE PerCom CASPer 2016 (3 papers)
-ComNet-IOT 2016 (3 papers)
-AAAI Trust 2016 (2 papers)
+IEEE WCNC 2016 (4 papers as TPC)
+IEEE PerCom CASPer 2016 (3 papers as TPC)
+ComNet-IOT 2016 (3 papers as TPC)
+AAAI Trust 2016 (2 papers as TPC)
 BIH 2016 (4 papers; delegated)
 MobiSPC 2016 (2 papers; delegated)
-PST 2016 (3 papers)
+PST 2016 (3 papers, as TPC)
 QTNA 2016
 
 2015:
 ACM KDD 2015
 ICCVE 2015
 MobiSPC 2015 (1 paper; delegated)
-IEEE WCNC 2015 (3 papers; 1 delegated & 2 reviewed)
+IEEE WCNC 2015 (3 papers; 1 delegated & 2 reviewed as TPC)
 ICMU 2015 (Int'l Conf on Mobile Computing and Ubiquitous Networking)
 
 2014:
 IEEE MASS 2014
 IEEE WCNC 2014 (3 papers; delegated)
 IEEE SenseApp 2014 (3 papers; delegated)
-IEEE ISSNIP 2014 (16 papers; symposium chair; assigned to TPC)
+IEEE ISSNIP 2014 (16 papers; assigned to TPC as Symposium chair)
 ICCVE 2014 (delegated)
 
 2013:
 ICMU 2013 (Int'l Conf on Mobile Computing and Ubiquitous Networking)
-IEEE SenseApp 2013 (3 papers; 1 delegated & 2 reviewed)
+IEEE SenseApp 2013 (3 papers; 1 delegated & 2 reviewed as TPC)
 ICUFN 2013
-IEEE WCNC 2013 (4 papers; delegated)
+IEEE WCNC 2013 (4 papers; delegated as TPC)
 IEEE ICC 2013
 IEEE AINA 2013
 IEEE ISSNIP 2013 IoT wksp (2 papers)

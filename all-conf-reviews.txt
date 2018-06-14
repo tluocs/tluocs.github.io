@@ -4,8 +4,9 @@
 
 2018:
 IEEE INFOCOM 2018 (12 papers as TPC)
-IEEE WOWMOM 2018 (4 papers as TPC)
+IEEE WoWMoM 2018 (4 papers as TPC)
 IEEE MASS 2018 (5 papers as TPC)
+IEEE Globecom 2018
 ICCCN 2018 (5 papers as TPC)
 IEEE PerCom CASPer 2018 (2 papers as TPC)
 ComNet-IoT 2018 (3 papers as TPC)

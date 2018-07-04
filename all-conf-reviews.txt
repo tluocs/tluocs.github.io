@@ -1,11 +1,13 @@
-		Conference papers I have reviewed: A non-exhaustive list
+		Conference papers review: A non-exhaustive list
 
-* Unless otherwise specified, the number of papers I have reviewed for each conference is one.
+* The default number of papers I review for each conference is one unless otherwise specified.
+* Some of my recent review records (including journals) can be found at my Publon profile: https://publons.com/a/1327756
+
 
 2018:
 IEEE INFOCOM 2018 (12 papers as TPC)
 IEEE WoWMoM 2018 (4 papers as TPC)
-IEEE MASS 2018 (4 papers as TPC; 1 paper delegated)
+IEEE MASS 2018 (5 papers; 2 delegated & 3 reviewed as TPC)
 ACM MSWiM 2018
 IEEE Globecom 2018
 IEEE PIMRC 2018
@@ -27,7 +29,7 @@ ComNet-IOT 2016 (3 papers as TPC)
 AAAI Trust 2016 (2 papers as TPC)
 BIH 2016 (4 papers; delegated)
 MobiSPC 2016 (2 papers; delegated)
-PST 2016 (3 papers, as TPC)
+PST 2016 (3 papers as TPC)
 QTNA 2016
 
 2015:

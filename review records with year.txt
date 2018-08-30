@@ -6,7 +6,8 @@ Digital Communications and Networks (DCAN; formerly under Elsevier, now under Ke
 		IEEE/ACM Transactions on Networking (ToN)<br><!--: 2010, 2011, 2014-->
 		IEEE Transactions on Mobile Computing (TMC)<br><!--: 2009, 2010, 2011, 2012, 2014, 2015, 2016, 2017, 2018-->
 		IEEE Journal on Selected Areas in Communications (JSAC)<br><!--2008-->
-		IEEE Transactions on Wireless Communications (TWC)<br><!--: 2013-->
+		TKDE: 2018
+		IEEE Transactions on Wireless Communications (TWC)<br><!--: 2013, 2018-->
 		IEEE Transactions on Vehicular Technology (TVT)<br><!--: 2008, 2013, 2017-->
 		IEEE Transactions on Cognitive Communications and Networking (TCCN)<br><!--2016, 2017-->
 		IEEE Transactions on Network and Service Management (TNSM)<br><!--2017-->

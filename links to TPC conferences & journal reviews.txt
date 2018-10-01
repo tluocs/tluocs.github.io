@@ -1,0 +1,55 @@
+****************** Conference TPC Member:
+
+		<!------------------------------ Previous format: one conference a row ------------------------------------------------------<br>
+		<a href="http://pstnet.ca/pst2018">PST 2018</a> (16th Int'l Conference on Privacy, Security and Trust)<br>
+		<a href="http://infocom2018.ieee-infocom.org">IEEE INFOCOM 2018</a> <!--(The 37th International Conference on Computer Communications)-><br>
+		<a href="http://it.murdoch.edu.au/wowmom2018">IEEE WoWMoM 2018</a> (The 19th International Symposium On A World Of Wireless, Mobile And Multimedia Networks)<br>
+		<a href="http://icccn.org/icccn18/">ICCCN 2018</a> (The 27th International Conference on Computer Communications and Networks)<br>
+		<a href="http://casper2018.uns.ac.rs"><font color=black>IEEE Percom - CASPer 2018</font></a> (The 5th Int'l Wksp on Crowd Assisted Sensing, Pervasive Systems and Communications)<br>
+		<a href="https://sites.google.com/view/comnetiot2018"><font color=black>ComNet-IoT 2018</font></a> (in conjunction with ICDCN 2018)<!--http://iitbhu.ac.in/ICDCN2018/-><br>
+		<a href="http://paradise.site.uottawa.ca/DCOSS/"><font color=black>IEEE DCOSS 2017</font></a> (The 13th International Conference on Distributed Computing in Sensor Systems)<br>
+		<!--a href="http://futurenet.szu.edu.cn/icpads2017">ICPADS 2017</a> (The 23nd IEEE International Conference on Parallel and Distributed Systems)<br->
+		<a href="http://ieee-smartworld.org/2017/uic/"><font color=black>IEEE UIC 2017</font></a> (The 14th International Conference on Ubiquitous Intelligence and Computing)<br>
+		<a href="http://casper2017.uns.ac.rs"><font color=black>IEEE Percom - CASPer 2017</font></a> (The 4th Int'l Wksp on Crowd Assisted Sensing, Pervasive Systems and Communications)<br>
+		<a href="http://wcnc2016.ieee-wcnc.org"><font color=black>IEEE WCNC 2016</font></a> (The 14th Wireless Communications and Networking Conference)<br>
+		<a href="http://wcnc2015.ieee-wcnc.org"><font color=black>IEEE WCNC 2015</font></a><br>
+		IEEE WCNC 2014<br>
+		IEEE WCNC 2013<br>
+		<a href="https://sites.google.com/site/trustworkshop/trust2016"><font color=black>Trust 2016</font></a> (The 18th edition; In conjunction with <a href="http://sis.smu.edu.sg/aamas2016"><font color=black>AAMAS 2016</font></a>)<br>
+		<a href="http://cs-conferences.acadiau.ca/mobispc-16/"><font color=black>MobiSPC 2016</font></a> (14th Int'l Conference on Mobile Systems and Pervasive Computing)<br>
+		MobiSPC 2015<br>
+		PST 2016 (14th Int'l Conference on Privacy, Security and Trust)<br>
+		BIH 2016 (Int'l Conference on Brain Informatics and Health)<br>
+		CCBD 2015 (Int'l Conference on Cloud Computing and Big Data)<br>
+		IBDC 2015 (Int'l Workshop on Big Data in Crowdsensing)<br>
+		<a href="http://www.senseapp.org/2015"><font color=black>IEEE SenseApp 2015</font></a> (in conjunction with IEEE LCN 2015)<br><!--(10th IEEE Int'l Workshop on Practical Issues in Building Sensor Network Applications)->
+		IEEE SenseApp 2014 (in conjunction with IEEE LCN 2014)<br>
+		IEEE SenseApp 2013 (in conjunction with IEEE LCN 2013)<br>
+		IEEE ICCVE 2015<br><!--(4th Int'l Conference on Connected Vehicles & Expo)->
+		IEEE ICCVE 2014<br>
+		IEEE ICCVE 2013<br>
+		ACM/IEEE ICCVE 2012<br>
+		<a href="http://www.bjiov.org"><font color=black>IOV 2014</font></font></a><br><!--Int'l Conference on Internet of Vehicles->
+		<a href="http://www.ami-13.org"><font color=black>AMI 2013</font></font></a><br><!--4th Int'l Joint Conference on Ambient Intelligence, Dublin, Ireland, December 3-5, 2013->
+		<a href="http://www.issnip.org/2013/wk-IOT-for-creating-sustainable-cities.html"><font color=black>IEEE ISSNIP IoT-SC 2013</font></font></a><br><!--Int'l Workshop on IoT for Smart Cities->
+		<a href="http://gnn.infotech.monash.edu.au/kicss2012"><font color=black>KICSS 2012</font></font></a><!--7th Int'l Conference on Knowledge, Information and Creativity Support Systems->
+		<!--MIC-CNIT 2007 (Int'l Conference on Communications, Networking and Information Technology)<br>M-CSC 2007->
+		------------------------------ Previous format: one conference a row ------------------------------------------------------>
+
+
+****************** Journal Reviewer:
+
+	<!-- <a href="http://www.ton.cs.umass.edu/"><font color=black>IEEE/ACM Transactions on Networking</font></a>, IEEE Transactions on Vehicular Technology,
+			<a href="http://www.comsoc.org/dl/jrnal/jsac.html"><font color=black>IEEE Journal on Selected Areas in Communications</font></a>,
+			<a href="http://www.elsevier.com/locate/comnet"><font color=black>Elsevier Computer Networks</font></a>,
+			<a href="http://www.sigmobile.org/MC2R/"><font color=black>MC2R</font></a>.-->
+
+
+****************** Conference Reviewer (not as TPC member):
+
+       <!--	<a href="http://www.ieee-secon.org/2009"><font color=black>SECON 2009</font></a>, <a href="http://www.ieee-infocom.org/2009/"><font color=black>INFOCOM 2009</font></a>, <a href="http://www.cse.psu.edu/IEEEMASS08/"><font color=black>MASS 2008</font></a>,
+			<a href="http://www.ieee-secon.org/2008"><font color=black>SECON 2008</font></a>,
+			<a href="http://www.engin.umd.umich.edu/icdcs/"><font color=black>ICDCS 2008</font></a>, <a href="http://www.ieee-infocom.org/2008/"><font color=black>INFOCOM 2008</font></a>,
+			<a href="http://www.sigmobile.org/mobicom/2007/"><font color=black>MobiCom 2007</font></a>,
+			<a href="http://www.cs.unibo.it/projects/mswim2007/"><font color=black>MSWiM 2007</font></a>,
+			<a href="http://www.cs.unibo.it/mswim2006/"><font color=black>MSWiM 2006</font></a>, -->

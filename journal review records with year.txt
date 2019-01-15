@@ -1,0 +1,32 @@
+---------------- journal review records with year info ---------------------
+	(just an attempt to keep record, so may not be complete)
+
+IEEE/ACM Transactions on Networking (ToN)<br><!--: 2010, 2011, 2014-->
+IEEE Transactions on Mobile Computing (TMC)<br><!--: 2009, 2010, 2011, 2012, 2014, 2015, 2016, 2017, 2018-->
+IEEE Journal on Selected Areas in Communications (JSAC)<br><!--2008-->
+IEEE Transactions on Knowledge and Data Engineering (TKDE) (2018)<br>
+IEEE Transactions on Wireless Communications (TWC)<br><!--: 2013, 2018-->
+IEEE Transactions on Vehicular Technology (TVT)<br><!--: 2008, 2013, 2017-->
+IEEE Transactions on Cognitive Communications and Networking (TCCN)<br><!--2016, 2017-->
+IEEE Transactions on Network and Service Management (TNSM)<br><!--2017-->
+IEEE Computer<br><!--2018-->
+IEEE Network<br><!--(Magazine) (2015)-->
+IEEE Pervasive Computing<br><!--(Magazine) (2017)-->
+ACM Transactions on Internet Technology (TOIT) (2018)<br>
+ACM Mobile Computing and Communications Review (MC2R)<br><!--(2009, 2010)-->
+Elsevier - Pervasive and Mobile Computing (PMC) [<a href="misc/Outstanding Reviewer Certificate - PMC.pdf">Outstanding Reviewer</a>]<br><!--: 2013, 2014, 2015, 2016, 2017, 2018-->
+Elsevier - Computer Networks (COMNET)<br><!--: 2008, 2009, 2015-->
+Elsevier - Computer Communications (COMCOM)<br><!--: 2017-->
+Elsevier - Ad Hoc Networks (ADHOC)<br><!--: 2013-->
+Elsevier - Journal of Parallel and Distributed Computing (JPDC) (2018-)<br>
+Elsevier - Information Systems<br><!--: 2018-->
+Elsevier - Future Generation Computer Systems (FGCS): 2018
+Elsevier - Digital Communications and Networks (DCAN; formerly under Elsevier, now under KeAi): 2018
+MDPI (Basel) - Sensors<br><!--: 2016, 2017--><!--Impact Factor: 2.677 (2016); 5-Year Impact Factor: 2.964 (2016)-->
+Wiley/Hindawi - Wireless Communications and Mobile Computing<br><!--: 2018-->
+IET Intelligent Transport Systems<br><!--: 2018--><!--Impact Factor: 1.194, 5-year Impact Factor: 1.389, retrieved Apr 2018-->
+IEICE Transactions on Fundamentals<!--: 2014-->, 
+
+-- not listed---
+Inderscience IJAHUC<!--: 2018-->
+etc.

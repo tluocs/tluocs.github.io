@@ -30,16 +30,17 @@
 <ol>
 	<li class="R" value=16><b>[IoT-J'19]</b> Improving IoT Data Quality in Mobile Crowdsensing: A Cross Validation Approach<br>
 		<b>T. Luo</b>, J. Huang, S. S. Kanhere, J. Zhang, and S. K. Das<br>
-		<i>IEEE Internet of Things Journal</i> (IoT-J). Under review.</li><p>
+		<i>IEEE Internet of Things Journal</i> (IoT-J). Under minor revision.</li><p>
 
 	<li class="R" value=15><b>[TOPS'19]</b> CrowdPrivacy: Publish More Useful Data for Less Privacy Exposure in Crowdsourced Location-based Services<br>
 		F-J. Wu and <b>T. Luo</b><br>
-		<i>ACM Transactions on Privacy and Security</i> (TOPS). Under review.</li><p>
+		<i>ACM Transactions on Privacy and Security</i> (TOPS). Under revision.</li><p>
 
 	<li class="R" value=14><b>[TMC'18]</b> On designing distributed auction mechanisms for wireless spectrum allocation [<a href="pub/TMC18-distributed-auction-spectrum-allocation-preprint.pdf">pdf</a>] <font size=2>[DOI: <a style="text-decoration:none" href="http://dx.doi.org/10.1109/TMC.2018.2869863"><font color=black>10.1109/TMC.2018.2869863</font></a>]</font><br>
 		S. Yang, D. Peng, T. Meng, F. Wu, G. Chen, S. Tang, Z. Li, and <b>T. Luo</b><br>
 		<i>IEEE Transactions on Mobile Computing</i> (TMC). Accepted. To appear.</li><p>
 
+	<a name=commag17 id=commag17></a>
 	<li class="R" value=13><b>[ComMag'17]</b> Sustainable incentives for mobile crowdsensing: Auctions, lotteries, and trust and reputation systems [<a href="pub/ComMag17-sustainable-incentives-mobile-crowdsensing.pdf">pdf</a>] <font size=2>[DOI: <a style="text-decoration:none" href="http://dx.doi.org/10.1109/MCOM.2017.1600746CM"><font color=black>10.1109/MCOM.2017.1600746CM</font></a>]</font><br>
 		<b>T. Luo</b>, S. S. Kanhere, J. Huang, S. K. Das, and F. Wu<br>
 		<i>IEEE Communications Magazine</i>, vol. 55, no. 3, pp. 68-74, March 2017.<br><!--http://arxiv.org/abs/1701.00248-->
@@ -51,7 +52,7 @@
 		<!--a href="http://dl.acm.org/citation.cfm?id=2837029">ACM DL page</a-->
 		<b>T. Luo</b>, S. K. Das, H-P. Tan, and L. Xia<br>
 		<i>ACM Transactions on Intelligent Systems and Technology</i> (TIST), vol. 7, no. 3, pp. 35:1-26, February 2016.<br>
-		<img src="img/allpay_vs_winner240.png"><br><!--img src="img/tist16-model-talknew.png" border=1-->
+		<img src="img/allpay_vs_winner240.png">(Table taken from <a href="#commag17">ComMag'17</a>)<br><!--img src="img/tist16-model-talknew.png" border=1-->
 		<font color=Gray>The most commonly used auctions for incentive mechanism design are <i>winner-pay auctions</i>, where only winners (highest bidders) need to pay (money or effort) for their bids (and be rewarded). On the contrary, <img src="img/allpay.png" height="20" style="vertical-align:middle"> <i>all-pay auctions</i> require every worker to pay regardless of who will win, while still rewarding the winners only. This appears to be rather unreasonable, but we show in this paper that all-pay auctions not only have several advantages over winner-pay auctions, but can also generate higher profit by using an <i>adaptive prize</i>.</font></li><p>
 		<!--"2-in-1" simplicity and risk-free of task non-fulfillment.--><!--a href="http://dl.acm.org/citation.cfm?id=2837029">ACM DL page</a-->
 
@@ -59,9 +60,9 @@
 	<li class="R" value=11><b>[TMC'16]</b> <!--img src="img/hetero.jpg" height="25"--> Incentive mechanism design for heterogeneous crowdsourcing using all-pay contests [<a href="pub/TMC16-heterogeneous-crowdsourcing-incentive-allpay-auction.pdf">pdf</a>] <font size=2>[DOI: <a style="text-decoration:none" href="http://dx.doi.org/10.1109/TMC.2015.2485978"><font color=black>10.1109/TMC.2015.2485978</font></a>]</font><br>
 		<b>T. Luo</b>, S. S. Kanhere, S. K. Das, and H-P. Tan<br>
 		<i>IEEE Transactions on Mobile Computing</i> (TMC), vol. 15, no. 9, pp. 2234-2246, September 2016.<br>
-		<img src="img/TMC16-model.png" border=1> <img src="img/MASS14-model0-formal.png" border=1><br><!--TMC16-eval.png-->
+		<img src="img/TMC16-model.png" border=1><br><!--img src="img/MASS14-model0-formal.png" border=1-->
 		<!--http://ieeexplore.ieee.org/document/7287773/-->
-		<font color=Gray>We all know that crowdworkers are heterogeneous, but it is hard to model and analyze. Therefore, existing work usually assumes the same distribution (e.g., uniform or normal) for all the workers, without considering the "deeper" heterogeneity where each individual worker has her own distribution (associated with her "type"). This paper deals with this model and designs an incentive mechanism based on <i>asymmetric all-pay auctions</i>.</font></li><p>
+		<font color=Gray>Despite that crowdworkers are heterogeneous as we all know, its hardness in modeling and analysis restrict prior work to have adopted a homogeneous model which imposes a (single) common Bayesian belief on all the workers. This paper addresses this challenge by modeling the heterogeneity (each worker is associated with a different probability distribution) using an <i>asymmetric all-pay auction</i> with a prize tuple.</font></li><p>
 		<!--font color=Gray>Crowd workers are often <i>heterogeneous</i>, in the sense that not only their "types" (abilities, costs, etc.) are different, but the "beliefs" (distributional knowledge) about their types are also different. While this is a better (closer) model of the reality, it is more challenging to design corresponding incentive mechanisms. This paper addresses this challenge using an <i>asymmetric all-pay auction</i> augmented with a <i>prize tuple</i>. Moreover, we discover an interesting property of the incentive mechanism, called <i>strategy autonomy</i>, where each worker chooses a strategy with no need of worrying (reasoning) about what others will choose!</font></li><p-->
 
 	<li class="R" value=10><b>[TMC'16]</b> Competition-based participant recruitment for delay-sensitive crowdsourcing applications in D2D networks [<a href="pub/TMC16-D2D-crowdsourcing-participant-recruitment.pdf">pdf</a>]<br>
@@ -89,7 +90,7 @@
 	<li class="R" value=6><b>[COMNET'14]</b> Fairness and social welfare in service allocation schemes for participatory sensing [<a href="pub/ComNet14-service-allocation-stochastic-programming-participatory-sensing-incentive.pdf">pdf</a>] <font size=2>[DOI: <a style="text-decoration:none" href="https://doi.org/10.1016/j.comnet.2014.07.013"><font color=black>10.1016/j.comnet.2014.07.013</font></a>]</font><br>
 		C-K. Tham and <b>T. Luo</b><br>
 		<i>Computer Networks</i>, Elsevier, vol. 73, pp. 58-71, November 2014.<br>
-		<img src="img/ComNet14-model.png" border=1> <img src="img/ComNet14-case1.png" height=220> &nbsp&nbsp <img src="img/ComNet14-case2.png" height=220><br>
+		<img border=1 src="img/ComNet14-model.png"> <!--img src="img/ComNet14-case1.png" height=220> &nbsp&nbsp <img src="img/ComNet14-case2.png" height=220--><br>
 		<font color=Gray>Instead of using monetary or reputation-based incentives, this paper proposes a <i>resource-allocation approach</i> to incentivize crowdsensing. Specifically, it allocates each user certain "service quota" based on the amount of contribution the user makes and the service demands. For example, it can be applied to platforms that use crowdsensed data to provide information service about transport (e.g., bus ETA),environment (e.q., air quality index), and so forth.</font></li><p>
 		<!--br>[Extended work of SECON'12 paper (item 2 below).]-->
 
@@ -210,13 +211,13 @@
 
 <h3><font color=darkgreen>CONFERENCE PROCEEDINGS</font></h3>
 <ol>
-	<li class="R" value=36><b>[AAMAS'19]</b> [Undisclosed in conformity with the doule-blind peer review policy]<br>
+	<!--li class="R" value=36><b>[AAMAS'19]</b> [Undisclosed in conformity with the doule-blind peer review policy]<br>
 		L. Zeynalvand, <b>T. Luo</b>, and J. Zhang<br>
 		<i>International Conference on Autonomous Agents and Multiagent Systems</i> (AAMAS), 2019. Under review.</li><p>
 
 	<li class="R" value=35><b>[ICC'19]</b> Orchestrated Container Migration and Handover in Edge Computing for Mobile Users<br>
 		M.V. Ngo, H.T. Hoang, <b>T. Luo</b>, and T.Q.S. Quek<br>
-		<i>IEEE International Conference on Communications</i> (ICC), 2019. Under review.</li><p>
+		<i>IEEE International Conference on Communications</i> (ICC), 2019. Under review.</li><p-->
 
 	<li class="R" value=34><b>[AAIM'18]</b> Achieving location truthfulness in rebalancing supply-demand distribution for bike sharing <font size=2>[DOI: <a style="text-decoration:none" href="http://dx.doi.org/10.1007/978-3-030-04618-7_21"><font color=black>10.1007/978-3-030-04618-7_21</font></a>]</font><br>
 		H. Lv, F. Wu, <b>T. Luo</b>, X. Gao, and G. Chen<br>
@@ -230,7 +231,8 @@
 	<li class="R" value=32><b>[ICC'18]</b> Distributed anomaly detection using autoencoder neural networks in WSN for IoT [<a href="pub/ICC18-iot-distributed-anomaly-detection-autoencoder-neural-networks.pdf">pdf</a>] [<a href="pub/ICC18-iot-distributed-anomaly-detection-autoencoder-neural-networks (slides).pdf">slides</a>] <font size=2>[DOI: <a style="text-decoration:none" href="https://ieeexplore.ieee.org/document/8422402/"><font color=black>10.1109/ICC.2018.8422402</font></a>]</font><br>
 		<b>T. Luo</b> and S. Nagarajan<br>
 		<i>IEEE International Conference on Communications</i> (ICC), May 2018.<br>
-		<font color=Gray>This paper is the first that introduces an <i>autoencoder neural network</i> (ANN) into wireless sensor networks (WSN) to solve the anomaly detection problem. It disproves the belief that "deep learning is not suitable for WSN" by "making deep learning <i>shallow</i>" via constructing a 3-layer neural network.</font></li><p>
+		<img border=1 src="img/autoencoder_icc18_luo.png"><img border=1 src="img/arch_icc18_luo.png"><br>
+		<font color=Gray>This paper is the first that introduces a deep learning model, <i>autoencoder neural networks</i> (ANN), into wireless sensor networks (WSN) to detect anomalies. It contradicts the general belief that "deep learning is not suitable for WSN" by "making deep learning (extremely) shallow" via constructing a neural network with only a single hidden layer. In addition, it allocates computation load through a two-part algorithm that has a complexity of only O(M<sup>2</sup>) on each sensor.</font></li><p>
 
 	<li class="R" value=31><b>[Globecom'17]</b> Reshaping mobile crowd sensing using cross validation to improve data credibility [<a href="pub/Globecom17-cross-validation-crowdsensing-data-credibility.pdf">pdf</a>] [<a href="pub/Globecom17-cross-validation (slides).pdf">slides</a>] <font size=2>[DOI: <a style="text-decoration:none" href="https://ieeexplore.ieee.org/document/8255050/"><font color=black>10.1109/GLOCOM.2017.8255050</font></a>]</font><br>
 		<b>T. Luo</b> and L. Zeynalvand<br> <!--https://arxiv.org/abs/1709.03495-->
@@ -249,7 +251,7 @@
 	<li class="R" value=28><b>[INFOCOM'15]</b> <!--img src="img/lucky.png" height="20"--> Crowdsourcing with Tullock contests: A new perspective [<a href="pub/INFOCOM15-Crowdsourcing-Tullock-contests.pdf">pdf</a>] <font size=2>[DOI: <a style="text-decoration:none" href="http://dx.doi.org/10.1109/INFOCOM.2015.7218641"><font color=black>10.1109/INFOCOM.2015.7218641</font></a>]</font><br>
 		<b>T. Luo</b>, S. S. Kanhere, H-P. Tan, F. Wu, and H. Wu<br>
 		<i>The 34th IEEE International Conference on Computer Communications</i> (INFOCOM), April 2015, pp. 2515-2523.<br>
-		<img src="img/auction_vs_lottery350.png"><br><!--img src="img/Infocom15-prize-function.png"-->
+		<img src="img/auction_vs_lottery350.png"> (Table taken from <a href="#commag17">ComMag'17</a>)<br>
 		<i>Acceptance rate: 19%</i><br>
 		<b><font color=red>Best Paper Award nominee</font></b><br><!--(0.3%; 5 out of 1640)-->
 		<font color=Gray>What is a Tullock contest? Think it as a lucky draw! While auctions have dominated the realm of mechanism design for decades, this paper suggests Tullock contests as an alternative mechanism that is more appealing to "ordinary" participants. Tullock contests distinguish themselves from auctions in being <i>imperfectly discriminating</i>: "You always have a chance to win, no matter how 'weak' you are." This feature is particularly desirable for, e.g., large-scale crowdsensing.</font></li><p>
@@ -292,11 +294,11 @@
 		<i>Acceptance rate: 26.5% (48 out of 181)</i><br>
 		<font color=Gray>We all know that crowdworkers are heterogeneous, but it is hard to model and analyze. Therefore, existing work usually assumes the same distribution (e.g., uniform or normal) for all the workers, without considering the "deeper" heterogeneity where each individual worker has her own distribution (associated with her "type"). This paper deals with this model and designs an incentive mechanism based on <i>asymmetric all-pay auctions</i>.</font></li><p>
 
-	<li class="R" value=20><b>[MASS'14]</b> WiFiScout: A crowdsensing WiFi advisory system with gamification-based incentive [<a href="pub/MASS14-WiFiScout-demo.pdf">pdf</a>]<br>
+	<li class="R" value=20><b>[MASS'14]</b> WiFiScout: A crowdsensing WiFi advisory system with gamification-based incentive [<a href="pub/MASS14-WiFiScout-demo.pdf">pdf</a>] <font size=2>[DOI: <a style="text-decoration:none" href="http://dx.doi.org/10.1109/MASS.2014.32"><font color=black>10.1109/MASS.2014.32</font></a>]</font><br>
 		F-J. Wu and <b>T. Luo</b><br>
 		<i>The 11th IEEE International Conference on Mobile Ad-hoc and Sensor Systems</i> (MASS), October 2014, pp. 533-534.<br>
-		<a href="http://wifi-scout.sns-i2r.org/" target=_blank><img border=1 src="img/logo-wifi.png"></a><br>
-		<font color=Gray>A mobile crowdsensing application called <i>WiFi-Scout</i> is presented in this short paper. This app provides <i>WiFi mapping</i> of a city using crowdsensed WiFi signals and user ratings.</font></li><p>
+		<!--a href="http://wifi-scout.sns-i2r.org/" target=_blank><img border=1 src="img/logo-wifi.png"></a><br-->
+		<font color=Gray>A mobile crowdsensing application called <i>WiFi-Scout</i> is presented in this short paper. This smart-city app provides the <i>WiFi mapping and searching</i> functionalities based on crowdsensed WiFi signals and crowdsourced WiFi user ratings.</font></li><p>
 
 	<li class="R" value=19>A smartphone-based WiFi monitoring system [<a href="http://www.ieice.org/ken/paper/201410318BtQ/eng/"><font color=black>abstract</font></a>]<br>
 		F-J. Wu and <b>T. Luo</b><br>
@@ -316,7 +318,7 @@
 	<li class="R" value=16><b>[INFOCOM'14]</b> Profit-maximizing incentive for participatory sensing [<a href="pub/INFOCOM14-profit-maximizing-incentive-participatory-sensing.pdf">pdf</a>] [Much enhanced version: <a href="#tist16">ACM TIST'16</a>]<br>
 		<b>T. Luo</b>, H-P. Tan, and L. Xia<br>
 		<i>The 33rd IEEE International Conference on Computer Communications</i> (INFOCOM), April 2014, pp. 127-135.<br><!--Toronto, Canada. Apr 27 - May 2-->
-		<img src="img/infocom14-model-talknew260.png" border=1><br>
+		<img border=1 src="img/infocom14-model-talknew.png"> <img src="img/Infocom-prize-function.png"><br>
 		<i>Acceptance rate: 19% (319 out of 1650)</i></li><p>
 
 	<li class="R" value=15>A generic participatory sensing framework for multi-modal datasets [<a href="pub/ISSNIP14-Generic-Participatory-Sensing-Framework.pdf">pdf</a>]<br>
@@ -560,8 +562,8 @@
   		R. Venkat, T. Divagar, <b>T. Luo</b>, and H.P. Tan<br>
 		<i>Technical Report</i>, Institute for Infocomm Research, A*STAR, Singapore, 2014.</li><p>
 
-	<li class="R">Toward data-centric and trustworthy Internet of Things <font color=white>[<a style="text-decoration:none" href="pub/TechRep2018-trustworthy-IoT-tony.pdf"><font color=white>pdf</a>]</font></font><br>
-		<b>T. Luo</b>, <i>Technical Report</i>, November 2018.
+	<!--li class="R">Toward data-centric and trustworthy Internet of Things <font color=white>[<a style="text-decoration:none" href="pub/TechRep2018-trustworthy-IoT-tony.pdf"><font color=white>pdf</a>]</font></font><br>
+		<b>T. Luo</b>, <i>Technical Report</i>, November 2018. -->
 </ul>
 
 <p>--<br>

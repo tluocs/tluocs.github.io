@@ -40,8 +40,8 @@
 	<li class="R" value=15><b>[IoT-J'19] Improving IoT data quality in mobile crowd sensing: A cross validation approach</b> [<a href="pub/IOTJ19_iot_data_quality_crowdsensing_cross_validation.pdf">pdf</a>] <font size=2>[DOI: <a style="text-decoration:none" href="https://ieeexplore.ieee.org/document/8666717/"><font color=black>10.1109/JIOT.2019.2904704</font></a>]</font><br>
 		<b>T. Luo</b>, J. Huang, S. S. Kanhere, J. Zhang, and S. K. Das<br>
 		<i>IEEE Internet of Things Journal</i> (IoT-J), vol. 6, no. 3, pp. 5651-5664, June 2019.<br>
-		<!--img src="img/iotj19-overview.png"--><img src="img/IoTJ19-sceA-reverse.jpg" height=200><img src="img/IoTJ19-sceB-reverse.jpg" height=200><br>
-		<div style="margin-left:2%;"><font color=LIGHTSLATEGRAY size=2>We propose a cross validation (CV) approach which seeks a <i>validating crowd</i> to ratify the <i>contributing crowd</i> in terms of the quality of sensor data contributed by the latter. Using a weighted random oversamping (WRoS) technique and a PATOP<sup>2</sup> algorithm which makes an exploration-exploitation tradeoff, our proposed CV approach offers a unified solution to two typical yet disparate needs: reinforce obscure truth and discover hidden truth.</font></div></li><p>
+		<!--img src="img/iotj19-overview.png"--><img src="img/IoTJ19-sceA-reverse.jpg" height=150><img src="img/IoTJ19-sceB-reverse.jpg" height=150><br>
+		<div style="margin-left:2%;"><font color=LIGHTSLATEGRAY size=2>We propose a cross validation (CV) approach which seeks a <i>validating crowd</i> to ratify the <i>contributing crowd</i> in terms of the quality of sensor data contributed by the latter. Using a WRoS technique and a PATOP<sup>2</sup> algorithm which makes an exploration-exploitation tradeoff, the CV approach offers a unified solution to two typical yet disparate needs: <i>reinforce obscure truth</i> and <i>discover hidden truth</i>.</font></div></li><p>
 	
 	<li class="R" value=14><b>[TMC'19]</b> On designing distributed auction mechanisms for wireless spectrum allocation [<a href="pub/TMC19-distributed-auction-spectrum-allocation.pdf">pdf</a>] <font size=2>[DOI: <a style="text-decoration:none" href="http://dx.doi.org/10.1109/TMC.2018.2869863"><font color=black>10.1109/TMC.2018.2869863</font></a>]</font><br>
 		S. Yang, D. Peng, T. Meng, F. Wu, G. Chen, S. Tang, Z. Li, and <b>T. Luo</b><br>
@@ -60,7 +60,7 @@
 		<b>T. Luo</b>, S. K. Das, H-P. Tan, and L. Xia<br>
 		<i>ACM Transactions on Intelligent Systems and Technology</i> (TIST), vol. 7, no. 3, pp. 35:1-26, February 2016.<br>
 		<img src="img/allpay_vs_winner240.png"> (table from <a href="#commag17">ComMag'17</a>)<br><!--img src="img/tist16-model-talknew.png" border=1-->
-		<div style="margin-left:2%;"><font color=LIGHTSLATEGRAY size=2>The most commonly used auctions for incentive mechanism design are <i>winner-pay auctions</i>, where only winners (i.e., highest bidders who will receive reward) need to pay for their bids (by money or effort). In contrast, <!--img src="img/allpay.png" height="20" style="vertical-align:middle"--><i>all-pay auctions</i> require every bidder to pay regardless of who wins, which sounds rather unreasonable. However, applying all-pay auctions to crowdsourcing, as this paper does, gains several advantages over winner-pay auctions, and reaps much higher profit with an <i>adaptive prize</i>.</font></div></li><p>
+		<div style="margin-left:2%;"><font color=LIGHTSLATEGRAY size=2>The most common auctions used in incentive mechanism design are <i>winner-pay auctions</i>, where only winners (i.e., highest bidders who will receive reward) need to pay for their bids (by money or effort). In contrast, <!--img src="img/allpay.png" height="20" style="vertical-align:middle"--><i>all-pay auctions</i> require every bidder to pay regardless of who wins, which sounds rather unreasonable. However, we show that applying all-pay auctions to crowdsourcing makes perfect sense and gains several advantages over winner-pay auctions. (This paper builds on our <a href=#infocom14>INFOCOM'14 paper</a>.)</font></div></li><p>
 		<!--"2-in-1" simplicity and risk-free of task non-fulfillment.--><!--a href="http://dl.acm.org/citation.cfm?id=2837029">ACM DL page</a-->
 
 	<a name=tmc16het id=tmc16het></a>
@@ -69,12 +69,13 @@
 		<i>IEEE Transactions on Mobile Computing</i> (TMC), vol. 15, no. 9, pp. 2234-2246, September 2016.<br>
 		<img src="img/heterogeneous_crowdsourcing.png"> <img src="img/hetero_label.png"> (see <a href="img/TMC16-model.png">model illustration</a>)<br><!--img src="img/MASS14-model0-formal.png" border=1-->
 		<!--http://ieeexplore.ieee.org/document/7287773/-->
-		<div style="margin-left:2%;"><font color=LIGHTSLATEGRAY size=2>Despite that crowdworkers are heterogeneous in their "types" (abilities, costs, etc.) as we all know, the hardness to model and analyze it has restricted researchers to adopt a homogeneous model where all the workers' types are assumed to follow a (single) common Bayesian belief. This paper proposes an <i>asymmetric all-pay auction</i> model to characterize the heterogeneity, and uses a <i>prize tuple</i> to achieve an interesting and counter-intuitive property called <i>Strategy Autonomy</i> (SA).</font></div></li><p>
-		<!--font color=Gray>Crowd workers are often <i>heterogeneous</i>, in the sense that not only their "types" (abilities, costs, etc.) are different, but the "beliefs" (distributional knowledge) about their types are also different. While this is a better (closer) model of the reality, it is more challenging to design corresponding incentive mechanisms. This paper addresses this challenge using an <i>asymmetric all-pay auction</i> augmented with a <i>prize tuple</i>. Moreover, we discover an interesting property of the incentive mechanism, called <i>strategy autonomy</i>, where each worker chooses a strategy with no need of worrying (reasoning) about what others will choose!</font></li><p-->
+		<div style="margin-left:2%;"><font color=LIGHTSLATEGRAY size=2>Despite that crowdworkers are typically heterogeneous (in terms of "types" such as abilities, costs, etc.), the daunting challenge of modeling and analyzing it has restricted researchers to homogeneous models in which all the worker types follow a single, common distribution (Bayesian belief). This paper addresses this challenge using an <i>asymmetric all-pay auction</i> model with a <i>prize tuple</i>. In addition, a most interesting <i>Strategy Autonomy</i> (SA) phenomenon is discovered.</font></div></li><p>
+		<!--in which each worker chooses a strategy without reasoning about what others will choose!</font></li><p-->
 
 	<li class="R" value=10><b>[TMC'16]</b> Competition-based participant recruitment for delay-sensitive crowdsourcing applications in D2D networks [<a href="pub/TMC16-D2D-crowdsourcing-participant-recruitment.pdf">pdf</a>] <font size=2>[DOI: <a style="text-decoration:none" href="http://dx.doi.org/10.1109/TMC.2016.2524590"><font color=black>10.1109/TMC.2016.2524590</font></a>]</font><br>
 		Y. Han, <b>T. Luo</b>, D. Li, and H. Wu<br>
-		<i>IEEE Transactions on Mobile Computing</i> (TMC), vol. 15, no. 12, pp. 2987-2999, December 2016.</li><p>
+		<i>IEEE Transactions on Mobile Computing</i> (TMC), vol. 15, no. 12, pp. 2987-2999, December 2016.<br>
+		<img src="img/tmc16-recruitment-d2d.jpg" height=180><font color=LIGHTSLATEGRAY size=4> A <b>participant-recruit-participant</b> scheme in device-to-device networks.</font></li><p>
 
 	<li class="R" value=9><b>[Syst'16]</b> Cooperative Multichannel Directional Medium Access Control for Ad Hoc Networks <font size=2>[DOI: <a style="text-decoration:none" href="http://dx.doi.org/10.1109/JSYST.2015.2478801"><font color=black>10.1109/JSYST.2015.2478801</font></a>]</font><br>
 	Y. Wang, M. Motani, H. K. Garg, Q. Chen, and <b>T. Luo</b><br>
@@ -113,11 +114,8 @@
 	<a name=tmc12energy id=tmc12energy></a>
 	<li class="R" value=3><b>[TMC'12]</b> Energy-Efficient Strategies for Cooperative Multi-Channel MAC Protocols [<a href="pub/TMC12-Altruistic-Energy-Efficient-Cooperative-Multichannel-MAC.pdf">pdf</a>]<br>
 		<b>T. Luo</b>, M. Motani, and V. Srinivasan<br>
-		<i>IEEE Transactions on Mobile Computing</i> (TMC), vol. 11, no. 4, pp. 553-566, April 2012. <!--(published online March 17, 2011).-->
+		<i>IEEE Transactions on Mobile Computing</i> (TMC), vol. 11, no. 4, pp. 553-566, April 2012.
 	  [<a href="javascript:popupTMC12()"><font color=black>Bib</font></a>]
-<!--  [<a href="http://www.computer.org/csdl/trans/tm/2012/04/ttm2012040553-abs.html">IEEE CSDL</a>]
-  [<a href="http://www.computer.org/portal/web/csdl/doi/10.1109/TMC.2011.60">IEEE CSDL</a>]-->
-  <!--[<a href="bib.html" onclick="return popitup('bib.html')"><font color=black>Bib</font></a>]</li>-->
 	<script language="javascript" type="text/javascript">
 	<!--
 	function popupTMC12() {
@@ -140,9 +138,9 @@
 		tmp.close();
 	}
 	// -->
-	</script> <!--[<a style="text-decoration:none" href="pub/tmc12-altru-techrep.pdf">techrep</a>]--><br>
-	<div style="margin-left:2%;"><font color=LIGHTSLATEGRAY size=2>Instead of duty-cycling (existing) nodes, this paper proposes to deploy additional nodes called "altruists" to achieve energy efficiency. Altruists serve as watchdogs to wake up other "normal" nodes when necessary. We design an optimized deployment strategy which not only achieves high <i>energy efficiency</i> but also high <i>cost efficiency</i>.</font>
-	<!--br>[(substantially) Extended work of the MobiCom'07 paper (item 2 below).]--></li><p>
+	</script><br>
+<img src="img/tmc12-altruist-telosb.jpg" height=200><font color=LIGHTSLATEGRAY size=3> An altruist node (red) intervenes to prevent packet collision (implemented on TelosB).<br>
+<font size=2>(This paper builds on our <a href=#mobicom07>MobiCom'07 paper</a>.)</font></font></li><p>
 
 	<a name=tmc10pco id=tmc10pco></a>
   <li class="R" value=2><b>[TMC'10]</b> A Metric for DISH Networks: Analysis, Implications, and Applications [<a href="pub/TMC10-cooperative-multichannel-mac-analysis.pdf">pdf</a>]<br>
@@ -255,7 +253,7 @@
 		<b>T. Luo</b> and S. Nagarajan<br>
 		<i>IEEE International Conference on Communications</i> (ICC), May 2018.<br>
 		<img src="img/autoencoder_icc18_luo.png"><img src="img/arch_icc18_luo.png"><br>
-		<div style="margin-left:2%;"><font color=LIGHTSLATEGRAY size=2>This paper is the first work that introduces <i>autoencoder neural networks</i> (ANN), a deep learning model, into wireless sensor networks (WSN) to detect anomalies. It contradicts the general belief that "deep learning is not suitable for WSN" by (1) "making deep learning (extremely) shallow" and (2) allocates computation load to sensors and IoT cloud using a two-part algorithm, DADA-S and DADA-C.</font></div></li><p>
+		<div style="margin-left:2%;"><font color=LIGHTSLATEGRAY size=2>This paper is the first that introduces <i>autoencoder neural networks</i> (ANN), a deep learning model, into wireless sensor networks (WSN) to detect anomalies. It contradicts the general belief that "deep learning is not suitable for WSN", by (1) making deep learning (extremely) shallow and (2) allocates computation load to sensors and IoT cloud using a two-part algorithm, DADA-S and DADA-C.</font></div></li><p>
 
 	<li class="R" value=31><b>[Globecom'17]</b> Reshaping mobile crowd sensing using cross validation to improve data credibility [<a href="pub/Globecom17-cross-validation-crowdsensing-data-credibility.pdf">pdf</a>] [<a href="pub/Globecom17-cross-validation (slides).pdf">slides</a>] <font size=2>[DOI: <a style="text-decoration:none" href="https://ieeexplore.ieee.org/document/8255050/"><font color=black>10.1109/GLOCOM.2017.8255050</font></a>]</font> [Much enhanced version: <a href="#iotj19">IoT-J'19</a>]<br>
 		<b>T. Luo</b> and L. Zeynalvand<br> <!--https://arxiv.org/abs/1709.03495-->
@@ -276,7 +274,7 @@
 		<img src="img/auction_vs_lottery350.png"> (table from <a href="#commag17">ComMag'17</a>)<br>
 		<i>Acceptance rate: 19%</i><br>
 		<b><font color=red>Best Paper Award nominee</font></b><br><!--(0.3%; 5 out of 1640)-->
-		<div style="margin-left:2%;"><font color=LIGHTSLATEGRAY size=2>What is a Tullock contest? Think it as a lucky draw! While auctions have dominated the realm of mechanism design for decades, this paper suggests Tullock contests as an alternative mechanism that is more appealing to "ordinary" participants. Tullock contests distinguish themselves from auctions in its <i>imperfectly discriminating</i> property: "You always have a chance to win, no matter how 'weak' you are." This feature is particularly desirable for, e.g., micro-task crowdsourcing (such as crowd sensing).</font></div></li><p>
+		<div style="margin-left:2%;"><font color=LIGHTSLATEGRAY size=2>What is a Tullock contest? Think it as a lucky draw! While auctions have dominated the realm of mechanism design for decades, this paper suggests that Tullock contests is a better alternative in that it is more "friendly" to ordinary participants ("grass roots"): You always have a chance to win, no matter how 'weak' you are.</font></div></li><p>
 
 	<li class="R" value=27><b>[INFOCOM'15]</b> Resisting three-dimensional manipulations in distributed wireless spectrum auctions [<a href="pub/INFOCOM15-FAITH.pdf">pdf</a>]<br>
 		D. Peng, S. Yang, F. Wu, G. Chen, S. Tang, and <b>T. Luo</b><br>
@@ -291,7 +289,7 @@
 	<li class="R" value=25><b>[Globecom'15]</b> EndorTrust: An endorsement-based reputation system for trustworthy and heterogeneous crowdsourcing [<a href="pub/Globecom15-EndorTrust.pdf">pdf</a>] <font size=2>[DOI: <a style="text-decoration:none" href="http://dx.doi.org/10.1109/GLOCOM.2015.7417352"><font color=black>10.1109/GLOCOM.2015.7417352</font></a>]</font><br>
 		C. Wu, <b>T. Luo</b>, F. Wu, and G. Chen<br>
 		<i>IEEE Global Communications Conference</i> (GLOBECOM), December 2015.<br>
-		<div style="margin-left:2%;"><font color=LIGHTSLATEGRAY size=2>This reputation system <i>predicts</i> (rather than just <i>evaluates</i>) the quality of user contribution without requiring users' prior contribution. The key to achieving this is to leverage an <i>endorsement</i> relationship among users. The prediction uses <i>collaborative filtering</i> (more specifically <i>matrix factorization</i>), a machine learning technique.</font></div></li><p>
+		<div style="margin-left:2%;"><font color=LIGHTSLATEGRAY size=2>This reputation system <i>predicts</i> (rather than just <i>evaluates</i>) the quality of user contribution without requiring users' prior contribution. The key to achieving this is to leverage an <i>endorsement</i> relationship among users and use a machine learning technique called <i>collaborative filtering</i>.</font></div></li><p>
 		<!--a href="http://ieeexplore.ieee.org/document/7417352/">IEEE xplore</a-->
 
 	<li class="R" value=24><b>[ICC'15]</b> An efficient and truthful pricing mechanism for team formation in crowdsourcing markets [<a href="pub/ICC15-TruTeam-team-crowdsourcing.pdf">pdf</a>] <font size=2>[DOI: <a style="text-decoration:none" href="http://dx.doi.org/10.1109/ICC.2015.7248382"><font color=black>10.1109/ICC.2015.7248382</font></a>]</font><br>
@@ -330,18 +328,19 @@
 		<b>T. Luo</b>, S. S. Kanhere, and H-P. Tan<br>
 		<i>The 11th IEEE International Conference on Sensing, Communication, and Networking</i> (SECON), July 2014, pp. 636-644.<br><!--Singapore. June 30 - July 3,-->
 		<i>Acceptance rate: 28.6% (67 out of 234)</i><br>
-		<div style="margin-left:2%;"><font color=LIGHTSLATEGRAY size=2>This work proposes a notion of "nepotism" which strikes a trade-off between egoism (game-theoretical) and altruism (philanthropic) to capture human nature in a more realistic way. It introduces an <i>endorsement</i> relationship to connect participants into an <i>socio-economic</i> network to incentivize trustworthy crowdsensing.<br>
-		Remark: SEW has been implemented in two software systems, <a href="http://foodprice.sns-i2r.org" target=_blank>FoodPriceSG</a> and <a href="http://imreporter.sns-i2r.org" target=_blank>imReporter</a>.</font></div></li><p>
+		<div style="margin-left:2%;"><font color=LIGHTSLATEGRAY size=2>This paper introduces an <i>endorsement</i> relationship to connect participants into an <i>socio-economic</i> network to incentivize trustworthy crowdsensing. (SEW has been implemented in two mobile apps, <a href="http://foodprice.sns-i2r.org" target=_blank>FoodPriceSG</a> and <a href="http://imreporter.sns-i2r.org" target=_blank>imReporter</a>.)</font></div></li><p>
+<!--proposes a notion of "nepotism" which strikes a trade-off between egoism (game-theoretical) and altruism (philanthropic) to capture human nature in a more realistic way.-->
 
 	<li class="R" value=17><b>[ICC'14]</b> Multi-Channel Directional Medium Access Control for Ad Hoc Networks: A Cooperative Approach [<a href="pub/ICC14-DMAC-Multi-Channel-Directional-MAC-Cooperative.pdf">pdf</a>]<br>
 	Y. Wang, M. Motani, H. K. Garg, Q. Chen, and <b>T. Luo</b><br>
 	<i>IEEE International Conference on Communications</i> (ICC), June 2014.</li><p><!--Sydney, Australia. June 10-14,-->
 
+	<a name=infocom14 id=infocom14></a>
 	<li class="R" value=16><b>[INFOCOM'14]</b> Profit-maximizing incentive for participatory sensing [<a href="pub/INFOCOM14-profit-maximizing-incentive-participatory-sensing.pdf">pdf</a>] [Much enhanced version: <a href="#tist16">ACM TIST'16</a>]<br>
 		<b>T. Luo</b>, H-P. Tan, and L. Xia<br>
 		<i>The 33rd IEEE International Conference on Computer Communications</i> (INFOCOM), April 2014, pp. 127-135.<br><!--Toronto, Canada. Apr 27 - May 2-->
-		<img src="img/allpay_plus.png"><img src="img/Infocom-prize-function.png"> (see <a href="img/infocom14-model-talknew.png">model illustration</a>)<br>
-		<i>Acceptance rate: 19% (319 out of 1650)</i></li><p>
+		<i>Acceptance rate: 19% (319 out of 1650)</i><br>
+		<img src="img/allpay_plus.png"><img src="img/Infocom-prize-function.png"><font color=LIGHTSLATEGRAY size=4> <b>All-pay auction + Adaptive (variable) prize (reward)</b>.</font></li><p><!--a href="img/infocom14-model-talknew.png">model illustration</a-->
 
 	<li class="R" value=15>A generic participatory sensing framework for multi-modal datasets [<a href="pub/ISSNIP14-Generic-Participatory-Sensing-Framework.pdf">pdf</a>]<br>
 		F-J. Wu and <b>T. Luo</b><br>
@@ -495,9 +494,9 @@
 	// -->
 	</script>
 	<i>Acceptance rate: 14.7% (44 out of 300)</i><br>
-	<div style="margin-left:2%;"><font color=LIGHTSLATEGRAY size=2>This paper provides an example of how to analyze cooperative networking procotols. The key idea is to introduce a metric called pco, which is the availability of cooperation or more specifically the probability of obtaining cooperation. We then provide an analysis of pco in both single-hop and multi-hop networks.</font></div></li><p>
+	<div style="margin-left:2%;"><font color=LIGHTSLATEGRAY size=2>Analyzing networking procotols in multi-hop networks is tough, and becomes even harder when it comes to a cooperative protocol. This paper presents a first attempt to address this challenge.</font></div></li><p>
 
-		<!-- ACM DL Article: Altruistic cooperation for energy-efficient multi-channel MAC protocols -->
+	<a name=mobicom07 id=mobicom07></a>
   	<li class="R" value=5><div class="acmdlitem" id="item1287895"><b>[MobiCom'07]</b> Altruistic cooperation for energy-efficient multi-channel MAC protocols [<img src="http://dl.acm.org/images/oa.gif" width="25" height="25" style="vertical-align:middle"/><a href="http://dl.acm.org/authorize?N07838" title="Altruistic cooperation for energy-efficient multi-channel MAC protocols">ACM Lib</a>] [<a href="pub/MobiCom07-Altruistic-Cooperation-Energy-Efficient-Multichannel-MAC.pdf">pdf</a>] [Extended work: <a href="#tmc12energy">TMC'12</a>]</div>
   		<b>T. Luo</b>, M. Motani, and V. Srinivasan<br>
 		<i>ACM International Conference on Mobile Computing and Networking</i> (MobiCom), September 2007.<!--Montreal, QC, Canada,-->
@@ -523,8 +522,9 @@
 	}
 	// -->
 	</script>
-	<i>Acceptance rate: 17% (26 regular papers + 14 extended abstracts out of 233 full-paper submissions)</i></li><p>
-
+	<i>Acceptance rate: 17% (26 regular papers + 14 extended abstracts out of 233 full-paper submissions)</i><br>
+<div style="margin-left:2%;"><font color=LIGHTSLATEGRAY size=2> Introduces "altruist" nodes to serve as watchdogs to prevent packet collisions in multi-channel ad hoc networks.</font></div></li><p>
+	
   <li class="R" value=4>CAM-MAC: A Cooperative Asynchronous Multi-Channel MAC Protocol for Ad Hoc Networks [<a href="pub/Broadnets06-CAMMAC-Cooperative-Asynchronous-Multichannel-MAC.pdf">pdf</a>] [Extended work: <a href="#tmc09">TMC'09</a>]<br>
   	<b>T. Luo</b>, M. Motani, and V. Srinivasan<br>
   <i>International Conference on Broadband Communications, Networks and Systems</i> (BroadNets), October 2006, pp. 1-10.<!--ICST 3rd ; San Jose, CA, USA-->

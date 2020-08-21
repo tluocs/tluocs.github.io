@@ -1,0 +1,16 @@
+a.zero:link { color: WHITE; text-decoration:none; }
+a.zero:visited { color: WHITE; }
+a.zero:hover { color: AQUA; }
+a.zero:visited:hover { color: AQUA; }
+a.one:link { color: MEDIUMBLUE; text-decoration:none; }
+a.one:visited { color: MEDIUMBLUE; }
+a.one:hover { color: AQUA; }
+a.one:visited:hover { color: AQUA; }
+a.two:link { color: BLACK; text-decoration:none; }
+a.two:visited { color: BLACK; }
+a.two:hover { color: AQUA; }
+a.two:visited:hover { color: AQUA; }
+a.three:link { color: CHOCOLATE; text-decoration:none; }
+a.three:visited { color: CHOCOLATE; }
+a.three:hover { color: AQUAMARINE; }
+a.three:visited:hover { color: AQUAMARINE; }

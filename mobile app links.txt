@@ -1,0 +1,12 @@
+WIFI:
+https://apps.apple.com/us/app/wifi-scout/id1185320264
+https://apkcombo.com/wifi-scout/sg.edu.astar.i2r.sns.psense/
+https://apkcombo.com/wifi-scout-endorsement-trial/sg.edu.astar.i2r.gps.endorsement/
+
+FPSG:
+https://apps.apple.com/us/app/foodpricesg/id1217364286
+https://apkpure.com/foodpricesg/com.project.eric.HawkerFoodPriceApp
+https://apkcombo.com/foodpricesg/com.project.eric.HawkerFoodPriceApp/
+
+imREP:
+https://apkcombo.com/imreporter/com.i2r.im/

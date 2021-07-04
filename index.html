@@ -199,13 +199,13 @@ Earlier:
 	<li><b>[IoT-J'19]</b> <a class="one" href="https://ieeexplore.ieee.org/document/8666717">Improving IoT data quality in mobile crowd sensing: A cross validation approach</a> <font size=2>[DOI: <a class="two" href="https://doi.org/10.1109/JIOT.2019.2904704">10.1109/JIOT.2019.2904704</a>]</font><br>
 		<b>T. Luo</b>, J. Huang, S. S. Kanhere, J. Zhang, and S. K. Das<br>
 		<i>IEEE Internet of Things Journal</i> (IoT-J), vol. 6, no. 3, pp. 5651-5664, June 2019.<br>
-		<div style="margin-left:2%;"><font color=LIGHTSLATEGRAY size=2>We propose a cross validation (CV) approach which seeks a <i>validating crowd</i> to ratify the <i>contributing crowd</i> in terms of the quality of sensor data contributed by the latter. Using a WRoS technique and a PATOP<sup>2</sup> algorithm which makes an exploration-exploitation tradeoff, the CV approach offers a unified solution to two typical yet disparate needs: <i>reinforce obscure truth</i> and <i>discover hidden truth</i>. (See <a class="one" href="publications.html#iotj19">illustration</a>.)</font></div></li>
+		<div style="margin-left:2%;"><font color=LIGHTSLATEGRAY size=2>We propose a cross validation (CV) approach that seeks a <i>validating crowd</i> to ratify the quality of sensor data contributed by the a <i>contributing crowd</i>. Using a <i>weighted ramdom oversampling</i> (WRoS) technique and a PATOP<sup>2</sup> algorithm which makes an exploration-exploitation tradeoff, the CV approach offers a unified solution to two disparate (and important) issues: <i>reinforce obscure truth</i> and <i>discover hidden truth</i>. (See <a class="one" href="publications.html#iotj19">illustration</a>.)</font></div></li>
 	
 	<li><b>[ICC'18]</b> <a class="one" href="https://ieeexplore.ieee.org/document/8422402">Distributed anomaly detection using autoencoder neural networks in WSN for IoT</a> [<a href="pub/ICC18-iot-distributed-anomaly-detection-autoencoder-neural-networks (slides).pdf">slides</a>] <font size=2>[DOI: <a class="two" href="https://doi.org/10.1109/ICC.2018.8422402">10.1109/ICC.2018.8422402</a>]</font><br>
 		<b>T. Luo</b> and S. Nagarajan<br>
 		<i>IEEE International Conference on Communications</i> (ICC), May 2018.<br>
 		<!--img src="img/autoencoder_icc18_luo.png"><img src="img/arch_icc18_luo.png"><br-->
-		<div style="margin-left:2%;"><font color=LIGHTSLATEGRAY size=2>This paper is the first that introduces <i>autoencoder neural networks</i> (ANN), a deep learning model, into wireless sensor networks (WSN) to detect anomalies. It contradicts the general belief that "deep learning is not suitable for WSN", by (1) making deep learning (extremely) shallow and (2) allocates computation load to sensors and IoT cloud using a two-part algorithm, DADA-S and DADA-C. (See <a class="one" href="publications.html#icc18">illustration</a>.)</font></div></li>
+		<div style="margin-left:2%;"><font color=LIGHTSLATEGRAY size=2>This paper is the first that introduces <i>autoencoder neural networks</i> (ANN), a deep learning model, into wireless sensor networks (WSN) for distributed anomaly detection. It contradicts the general belief that deep learning is not suitable for WSN, by (1) making deep learning (extremely) shallow and (2) dividing and allocating computation load to sensors and the IoT cloud with a two-part algorithm. (See <a class="one" href="publications.html#icc18">illustration</a>.)</font></div></li>
 
 	<a name=commag17 id=commag17></a>
 	<li><b>[ComMag'17]</b> <a class="one" href="https://ieeexplore.ieee.org/document/7876960">Sustainable incentives for mobile crowdsensing: Auctions, lotteries, and trust and reputation systems</a> <font size=2>[DOI: <a class="two" href="http://dx.doi.org/10.1109/MCOM.2017.1600746CM">10.1109/MCOM.2017.1600746CM</a>]</font><br>
@@ -219,7 +219,7 @@ Earlier:
 		<b>T. Luo</b>, S. K. Das, H-P. Tan, and L. Xia<br>
 		<i>ACM Transactions on Intelligent Systems and Technology</i> (TIST), vol. 7, no. 3, pp. 35:1-26, February 2016.<br>
 		<!--img src="img/allpay_vs_winner240.png"> (table from <a class="one" href="#commag17">ComMag'17</a>)<br-->
-		<div style="margin-left:2%;"><font color=LIGHTSLATEGRAY size=2>The most common auctions used in incentive mechanism design are <i>winner-pay auctions</i>, where only winners (i.e., highest bidders who will receive reward) need to pay for their bids (by money or effort). In contrast, <!--img src="img/allpay.png" height="20" style="vertical-align:middle"--><i>all-pay auctions</i> require every bidder to pay regardless of who wins, which sounds rather unreasonable. However, we show that applying all-pay auctions to crowdsourcing makes perfect sense and gains several advantages over winner-pay auctions. (This paper builds on our <a class="one" href=#infocom14>INFOCOM'14 paper</a>.)</font></div></li>
+		<div style="margin-left:2%;"><font color=LIGHTSLATEGRAY size=2>The most adopted auctions in incentive mechanism design have been <i>winner-pay auctions</i> (WPA) so far, in which only winners (who outbid others and will therefore receive reward) need to pay their bids. By contrast, <i>all-pay auctions</i> (APA) require all the participants regardless of who win the auction to pay their bids. Although this apparently sounds unreasonable, it makes perfect sense when applied to crowdsourcing and has two important advantages over WPA. (This paper builds on our <a class="one" href=#infocom14>INFOCOM'14 paper</a>.)</font></div></li>
 		<!--"2-in-1" simplicity and risk-free of task non-fulfillment.--><!--a href="http://dl.acm.org/citation.cfm?id=2837029">ACM DL page</a-->
 
 	<a name=tmc16het id=tmc16het></a>
@@ -228,7 +228,7 @@ Earlier:
 		<i>IEEE Transactions on Mobile Computing</i> (TMC), vol. 15, no. 9, pp. 2234-2246, September 2016.<br>
 		<!--img src="img/heterogeneous_crowdsourcing.png"> <img src="img/hetero_label.png"> (see <a class="one" href="img/TMC16-model.png">model illustration</a>)<br-->
 		<div style="margin-left:2%;"><font color=LIGHTSLATEGRAY size=2>Despite that crowdworkers 
-		are typically heterogeneous (in terms of "types" such as abilities, costs, etc.), the daunting challenge of modeling and analyzing it has restricted researchers to homogeneous models in which all the worker types follow a single, common distribution (Bayesian belief). This paper addresses this challenge using an <i>asymmetric all-pay auction</i> model with a <i>prize tuple</i>. In addition, a most interesting <i>Strategy Autonomy</i> (SA) phenomenon is discovered.</font></div></li>
+		are typically heterogeneous (in abilities, costs, etc.), the daunting challenge of modeling and analyzing such scenarios has restricted researchers to choosing homogeneous models in which all the worker types follow a single, common distribution (Bayesian belief). This paper addresses this challenge using an <i>asymmetric all-pay auction</i> model with a <i>prize tuple</i>. Not only does it achieve better performance, but it also uncovers a counter-intuitive and interesting property called <i>strategy autonomy</i>, in which the asymmetric equilibrium collapses into a symmetric one.</font></div></li>
 		<!--in which each worker chooses a strategy without reasoning about what others will choose!</font></li><p-->
 
 	<li><b>[TMC'16]</b> <a class="one" href="pub/TMC16-D2D-crowdsourcing-participant-recruitment.pdf">Competition-based participant recruitment for delay-sensitive crowdsourcing applications in D2D networks</a> <font size=2>[DOI: <a class="two" href="http://dx.doi.org/10.1109/TMC.2016.2524590">10.1109/TMC.2016.2524590</a>]</font><br>
@@ -240,13 +240,13 @@ Earlier:
 		<b>T. Luo</b>, S. S. Kanhere, H-P. Tan, F. Wu, and H. Wu<br>
 		<i>The 34th IEEE International Conference on Computer Communications</i> (INFOCOM), April 2015, pp. 2515-2523.<br>
 		<!--img src="img/auction_vs_lottery350.png"> (table from <a class="one" href="#commag17">ComMag'17</a>)<br-->
-		<font color=CHOCOLATE><b>Best Paper Award nominee</b></font><br><!--(0.3%; 5 out of 1640)-->
-		<div style="margin-left:2%;"><font color=LIGHTSLATEGRAY size=2>What is a Tullock contest? Think it as a lucky draw! While auctions have dominated the realm of mechanism design for decades, this paper suggests that Tullock contests is a better alternative in that it is more "friendly" to ordinary participants ("grass roots"): You always have a chance to win, no matter how 'weak' you are.</font></div></li>
+		<!--font color=CHOCOLATE><b>Best Paper Award nominee</b></font><br><!--(0.3%; 5 out of 1640)-->
+		<div style="margin-left:2%;"><font color=LIGHTSLATEGRAY size=2>What is a Tullock contest? Think it as a lucky draw! While auctions have dominated the realm of mechanism design for decades, this paper suggests Tullock contests as a better alternative because it is less competitive and thus more conducive to larger participation.</font></div></li>
 
 	<li><b>[TMC'15]</b> <a class="one" href="https://ieeexplore.ieee.org/document/6832594">Quality of contributed service and market equilibrium for participatory sensing</a> <font size=2>[DOI: <a class="two" href="http://dx.doi.org/10.1109/TMC.2014.2330302">10.1109/TMC.2014.2330302</a>]</font><br>
 		C-K. Tham and <b>T. Luo</b><br>
 		<i>IEEE Transactions on Mobile Computing</i> (TMC), vol. 14, no. 4, pp. 829-842, April 2015.<br>
-		<div style="margin-left:2%;"><font color=LIGHTSLATEGRAY size=2>In order to characterize QoS for crowdsensing, this work proposes a metric called <i>Quality of Contributed Service</i> (QCS) which aggregates individual <i>quality of contributions</i> and takes into account <i>information quality</i> and <i>time sensitivity</i>. QCS is then analyzed using a market based supply-and-demand model.</font></div></li>
+		<div style="margin-left:2%;"><font color=LIGHTSLATEGRAY size=2>Characterizing QoS for crowdsensing is a challenge, and this work proposes a new metric called <i>Quality of Contributed Service</i> (QCS) to aggregate individual quality of contributions by taking into account information quality and time sensitivity. We analyze this metric using a market-based supply-and-demand model.</font></div></li>
 		<!--We show that QCS can converge to a good market equilibrium when users start from purely random behaviors.-->
 		<!--br>[Extended work of DCOSS'13 paper.]-->
 
@@ -255,7 +255,7 @@ Earlier:
 		<b>T. Luo</b>, H-P. Tan, and L. Xia<br>
 		<i>The 33rd IEEE International Conference on Computer Communications</i> (INFOCOM), April 2014, pp. 127-135.<br><!--Toronto, Canada. Apr 27 - May 2-->
 		<!--img src="img/allpay_plus.png"><img src="img/Infocom-prize-function.png"> (see <a class="one" href="img/infocom14-model-talknew.png">model illustration</a>)<br-->
-		<div style="margin-left:2%;"><font color=LIGHTSLATEGRAY size=2>All-pay auction + Adaptive (variable) prize (reward). (See <a class="one" href="publications.html#infocom14">illustration</a>.)</font></div></li>
+		<div style="margin-left:2%;"><font color=LIGHTSLATEGRAY size=2>All-pay auction + adaptive prize/reward (see <a class="one" href="publications.html#infocom14">illustration</a> or short abstract of <a class="one" href=#tist16>TIST'16</a>).</font></div></li>
 
 </ul>
 
@@ -283,7 +283,7 @@ Related Publications:
 <li><b>[SECON'14]</b> T. Luo, S. Kanhere, and H-P. Tan, "<a class="one" href="pub/SECON14-SEW-incentivize-trustworthy-participatory-sensing.pdf">SEW-ing a Simple Endorsement Web to incentivize trustworthy participatory sensing</a>," <i>IEEE International Conference on Sensing, Communication, and Networking</i> (SECON), July 2014.<br>
 	<div style="margin-left:2%;"><font color=LIGHTSLATEGRAY size=2>SEW is the foundation of the incentive engine implemented by <i>FoodPriceSG</i> & <i>imReporter</i>. It introduces an endorsement relationship to connect participants into an socio-economic network to incentivize trustworthy crowdsensing.</font></div></li>
 <li><b>[MASS'14]</b> F-J. Wu and T. Luo, "<a class="one" href="pub/MASS14-WiFiScout-demo.pdf">WiFiScout: A crowdsensing WiFi advisory system with gamification-based incentive</a>," <i>IEEE International Conference on Mobile Ad Hoc and Sensor Systems</i> (MASS), October 2014.<br>
-	<div style="margin-left:2%;"><font color=LIGHTSLATEGRAY size=2><i>WiFi-Scout</i> is a crowdsensing application that provides WiFi locations, speed, and security modes by using crowdsensed WiFi signals and user inputs.</font></div></li>
+	<div style="margin-left:2%;"><font color=LIGHTSLATEGRAY size=2><i>WiFi-Scout</i> is a application that provides a city's WiFi map via crowdsensing; the map contains WiFi locations, quality, and login security mode.</font></div></li>
 <!--li>[TD'17] T. Luo, "VoteNet," I2R/A*STAR Technology Disclosure, 2017. <font color=green>(A much improved version of SEW (SECON'14) as in the above.)</font></li-->
 </ul>
 

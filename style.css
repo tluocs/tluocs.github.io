@@ -10,7 +10,7 @@ a.two:link { color: BLACK; text-decoration:none; }
 a.two:visited { color: BLACK; }
 a.two:hover { color: AQUA; }
 a.two:visited:hover { color: AQUA; }
-a.three:link { color: CHOCOLATE; text-decoration:none; }
+a.three:link { color: CHOCOLATE; text-decoration:underline; text-decoration-style:dotted; text-decoration-thickness:1px}
 a.three:visited { color: CHOCOLATE; }
 a.three:hover { color: AQUA; }
 a.three:visited:hover { color: AQUA; }

@@ -1,0 +1,772 @@
+<html>
+
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-173279609-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-173279609-1');
+</script>
+
+<title>Thomas Tie Luo</title>
+<meta charset="UTF-8"><!--or "windows-1252"-->
+<meta name="author" content="Thomas Luo, Tie Luo, Tony T. Luo, ÂÞÌú">
+<meta name="description" content="Trustworthy Artificial Intelligence for Medicine, Healthcare, and the Internet of Things (IoT)."/>
+<meta name="keywords" content="Thomas Luo, Tie Luo, Tony Luo, ÂÞÌú, Explainable AI (XAI), Adversarial and Robust Machine Learning, Security and Privacy in Federated Learning, Time Series Analysis, Medical Imaging, Computer Vision, Cybersecurity, Internet of Things (IoT)" />
+<meta name="robots" content="index, follow" />
+<link rel="shortcut icon" href="favicon.ico" />
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body topmargin="0" leftmargin="0" rightmargin="0" bottommargin="0" marginheight="0" marginwidth="0"><!--bgcolor="#cccccc" -->
+
+<!--font face="Segoe UI"><basefont-->
+<style>
+body { font-family: "Segoe UI", Optima, Geneva, Futura, "Gill Sans", "Times New Roman"; }
+</style>
+
+
+<table border=0 width="100%" cellspacing=1 cellpadding=10 background="img/topbkgd_mst.png">
+  <tr>
+    <td width="5%" align="left"><img border=0 src="img/20portrait.jpg" style="width:220px" ></td>
+    <td width="80%"><font color=white size=1><h1>Thomas T. Luo &nbsp&nbsp <span style="font-weight: normal; font-size: 13px; color: DARKGRAY">(formerly Tony T. Luo)</span></h1></font>
+    	<font color=white size=3>Associate Professor<br>
+			<a class="zero" href="https://engr.uky.edu/ece">Department of Electrical and Computer Engineering</a><br>
+			<a class="zero" href="https://engr.uky.edu">Stanley and Karen Pigman College of Engineering</a><br>
+			<a class="zero" href="https://www.uky.edu">University of Kentucky</a><p>
+    		223 Davis Marksbury Building, 329 Rose Street, Lexington, KY 40506, USA<br>
+    		Phone: +1 (859) 257-1527<br>
+			E-mail: t.luo &lt;at&gt; uky.edu</font>
+    </td>
+    <td width="5%" style="padding:0pt"><img src="img/University_of_Kentucky_seal.svg.png" style="float:right; width:240px"></img></td>
+    <td width="5%"><img src="img/Kentucky_Wildcats_logo.svg.png" style="float:right; width:180px"</img></td>
+  </tr>
+</table>
+<!-- <table border="0" width="100%" cellspacing="0" cellpadding="0" background="img/blackline.gif">
+  <tr>
+    <td width="100%"><font color="#B8C0F0" face="Arial" size=2><b>&nbsp;&nbsp;
+      &nbsp;&nbsp; &nbsp;&nbsp; </b></font></td>
+  </tr>
+</table> -->
+
+<table class=MsoNormalTable border=2 cellpadding=2 cellspacing=2>
+ <tr>
+  <!-- side bar on the left ---------------------
+  td width=100 valign=top style='padding:.75pt .75pt .75pt 2pt'>
+  <p><span style='font-size:14pt'><a href="#teach">Teaching</a></span></p>
+  <p><span style='font-size:14pt'><a href="#rsch">Research</a></span></p>
+  <p><span style='font-size:14pt'><a href="#pub">Publications</a></span></p>
+  <p><span style='font-size:14pt'><a href="#talk">Talks</a></span></p>
+  <p><span style='font-size:14pt'><a href="#stud">Students</a></span></p>
+  <p><span style='font-size:14pt'><a href="#serv">Activities</a></span></p>
+  </b></td-->
+
+  <td style='padding:1 1 1 5'>
+
+<a name=update id=upd></a>
+  <!--hr size=2 width="100%" align=center-->
+
+<!--br><font color=red><b>Update:</b></font> I will be joining the <a href="https://www.uky.edu">University of Kentucky</a> as an Associate Professor in the <a href="https://www.engr.uky.edu/research-faculty/departments/electrical-computer-engineering">Electrical and Computer Engineering (ECE) Department</a>, starting in August 2024. I am reachable at <i>t&lt;dot&gt;luo@uky.edu</i>.<p-->
+
+<!--br><font size=4>Notable School News:</font>
+<ul>
+	<li>[Nov 2023] Missouri S&T will be a <b>Carnegie</b> <a class="three" href="https://www.acenet.edu/News-Room/Pages/Carnegie-Classifications-to-Make-Major-Changes.aspx"><b>R1 research institution</b></a> in 2025.</li>
+
+	<li>[Sep 2023] <a class="four" href="https://premium.usnews.com/best-colleges/rankings/engineering-doctorate"><b>U.S. News & World Report</b></a> ranked Missouri S&T <a class="four" href="https://news.mst.edu/2023/09/u-s-news-ranks-missouri-st-as-states-top-public-engineering-school/"><b>#1</b> in the state and <b>#39</b> in the US</a> for public engineering programs.</li>
+
+	<li>[Apr 2023] <a class="four" href="https://www.princetonreview.com/college-rankings/best-value-colleges"><b>Princeton Review</b></a> ranked Missouri S&T <a class="four" href="https://news.mst.edu/2023/04/princeton-review-rates-st-high-for-roi-career-placement-internships/"><b>#3</b> for best career placement, <b>#9</b> for internships, and <b>#24</b> for best return on investment</a>, among the US top public universities.</li>
+
+	<li>[Mar 2023] <a class="four" href="https://www.nytimes.com/2023/03/27/opinion/problem-college-rankings.html"><b>New York Times</b></a> ranked Missouri S&T <a class="four" href="https://news.mst.edu/2023/03/new-york-times-tool-identifies-missouri-st-as-top-10-high-value-university/"><b>#8</b> in the US</a> for high-value universities (Harvard University is #7).</li>
+
+	<li>[Aug 2022] <a class="four" href="https://www.forbes.com/sites/michaeltnietzel/2022/08/02/princeton-1-but-public-universities-also-do-well-in-new-college-ranking-based-on-economic-returns/"><b>Forbes</b></a> reported that <a class="four" href="https://www.degreechoices.com/best-colleges/rankings/national-universities/">DegreeChoices</a> ranked Missouri S&T <a class="four" href="misc/Missouri S&T ranks 12th in nation, first in state for graduate economic success.pdf"><b>#1</b> in the state and <b>#12</b> in the US</a> for university graduates’ economic success. [screenshots: <a class="four" href="misc/US-Univerity-Ranking-Econ-Return (Forbes 2022-08).png">1</a>, <a class="four" href="misc/The top national universities – Degreechoices 2022-08.pdf">2</a>]</li>
+
+	<li>[Jun 2022] <a class="four" href="https://money.com/best-colleges/">Money</a> ranked Missouri S&T <a class="four" href="https://news.mst.edu/2022/06/missouri-st-ranked-a-top-five-university-for-engineering/"><b>#1</b> in the state and <b>#5</b> in the US</b></a> for engineering.</li>
+	<li>[May 2022] <a class="four" href="https://money.com/best-colleges/">Money</a> ranked Missouri S&T <a class="four" href="https://news.mst.edu/2022/05/missouri-st-makes-moneys-list-of-top-universities/"><b>#1</b> in the state and <b>#41</b> in the US</a> for the overall ranking.</li>
+
+	<li>[Jan 2022] <a class="four" href="https://www.intelligent.com/best-masters-in-computer-science-degree-programs/">Intelligent</a> recognized Missouri S&T <a class="four" href="misc/Best Master’s in Computer Science Degree Programs of 2022 - Intelligent.pdf"><b>#34</b> in the US</a> for Master’s programs in Computer Science .</li>
+
+	<li>[Jul 2021] <a class="four" href="misc/Missouri S&T best in state for value & starting salaries, report shows (2021)-compressed.pdf">SmartAsset</a> ranked Missouri S&T <b>#1</b> for best value and <b>#1</b> for starting salary of graduates in the state of Missouri, and <b>#9</b> in the US for return of investment. [<a class="four" href="misc/Missouri S&T best in state 2021-07.png">screenshot</a>]</li>
+
+	<li>[Oct 2020] Missouri S&T received a <a class="four" href="https://news.mst.edu/2020/10/missouri-st-receives-300-million-gift-from-june-and-fred-kummer/"><b>$300 million donation</b></a> from its alumni, Fred Kummer and his wife June Kummer, who said: "<i>I owe much of my success to the education I received at Rolla. My Rolla experience taught me how to think, how to work hard and how to manage my own career. [...] We believe that Missouri S&T's best days are ahead.</i>"</li>
+</ul-->
+
+  <!--hr size=2 width="100%" align=center--><br>
+
+  &nbsp&nbsp<img src="img/loc.jpg" height=35></img>&nbsp&nbsp&nbsp
+  Research &nbsp&nbsp
+  <a class="one" href="#teach"><u>Teaching</u></a>&nbsp&nbsp&nbsp
+  <a class="one" href="#pub"><u>Publications</u></a>&nbsp&nbsp&nbsp
+  <a class="one" href="#sys"><u>Systems</u></a>&nbsp&nbsp&nbsp
+  <!--a href="#talk">TALKS</a>&nbsp&nbsp&nbsp-->
+  <a class="one" href="#stud"><u>Students</u></a>&nbsp&nbsp&nbsp
+  <a class="one" href="#serv"><u>Services</u></a>&nbsp&nbsp&nbsp
+  <a class="one" href="#misc"><u>Misc</u></a><p>
+
+<a name=rsch id=rsch></a>
+  <hr size=2 width="100%" align=center>
+
+<p><h2 style="font-size:24">Research</h2>
+
+My work focuses on <b>Trustworthy medicine, healthcare, and Internet of Things (IoT)</b> applications with robust and intelligent approaches. I'm particularly passionate about:
+	<ul style="margin-top:3px; margin-bottom:3px">
+	<li><b>Robust Medical Imaging</b></li>
+	<li><b>Multimodal Medical Diagonses</b></li>
+	<li><b>Distributed and Intelligent IoT Systems</b></li>
+	<li><b>Time Series Analysis</b></li>
+	</ul>
+
+<!--Earlier:
+<ul style="margin-top:3">
+<li>Wireless networks (sensor / ad hoc / cognitive radio)</li>
+<li>Software-defined networking</li>
+<li>Smart grid</li>
+</ul-->
+
+<p><i><b><font color=red>Prospective students:</font></b></i> I advise PhD students in CS/CE/EE. Please read <a href="prospective_students.html">this note</a> before applying to my group.<br>
+<i><b>Postdocs:</b></i> Two fellowship opportunities are currently <a href="https://www.research.uky.edu/internal-research-support-programs/postdoctoral-fellowships">open</a>, but you must be a US citizen, national, or PR to be eligible.
+
+<!--h4 style="display:inline">Research Grant</h4>: Principal Investigator (PI) of
+"<i>FLINT: Robust Federated Learning for Internet of Things,</i>" <i>National Science Foundation</i> (NSF), 2020-2025 [<a class="one" href="img/CEC_open_forum_2020-10-13_First-Time_Success.jpg">Announcement</a>]<p-->
+
+<h4 style="display:inline">Biosketch:</h4> 
+I am a tenured Associate Professor in the Department of Electrical and Computer Engineering (ECE) at the University of Kentucky, starting August 2024. Prior to that, I was an Associate Professor in the <a class="one" href="https://cs.mst.edu">Department of Computer Science</a> at Missouri University of Science and Technology. <!--, where I am also a faculty investigator of four research centers: Intelligent Systems Center (<a class="one" href="https://isc.mst.edu/people/ri/luo">ISC</a>), Center for Intelligent Infrastructure (<a class="one" href="https://cii.mst.edu/people/members/tieluo/">CII</a>), High-Performance Computing Center (<a class="one" href="https://hpc.mst.edu/members/">HPCC</a>), and Center for Biology Research (<a class="one" href="https://cbr.mst.edu/people/">CBR</a>). Prior to joining Missouri S&amp;T in December 2019, I was a Scientist and Program Lead at <a class="one" href="https://www.a-star.edu.sg/">A*STAR</a>, Singapore's foremost research institute.--> I received my Ph.D. in Electrical and Computer Engineering from the National University of Singapore <font size=2>(ranked globally <a class="one" href="misc/National University of Singapore (NUS) _ Top Universities 8.pdf">#8</a> by QS, <a class="one" href="misc/National University of Singapore _ World University Rankings _ THE 19 A3.pdf">#19</a> by Times Higher Education (THE), and <a class="one" href="misc/National University of Singapore - US News Best Global Universities 22 CS3 EE5.pdf">#22 (CS #3, EE #5)</a> by U.S. News & World Report)</font>. I have received five Best Paper awards or nominations. I am a member of AAAI and ACM, and a <a class="one" href="img/ieee_senior_member_plaque.jpg">Senior Member</a> of IEEE.<p>
+<!--I have graduated three Ph.D. students and two MS students, and mentored more than 10 graduate students.-->
+
+<a name=teach id=teach></a>
+  <hr size=2 width="100%" align=center>
+
+<p><b><span style='font-size:18pt'>Teaching</span></b></p>
+
+<ul>
+	<li>EE599/699 (UK) - Special Topics in CPE/EE, Fall 2024</li>
+	<li>CS6001/6407 (MST) - Internet of Things with data science (Earlier course)</li>
+</ul>
+
+<a name=pub id=pub></a>
+  <hr size=2 width="100%" align=center>
+
+<p><b><span style='font-size:18pt'>Publications</span></b></p>
+
+<ul>
+	<img src="img/finger_green64.png" height=17></img>&nbsp
+	<a class="one" href="publications.html"><u><b>Full list</b></u></a> contains <i>graphic illustrations</i>.<br>
+	<img src="img/finger_green64.png" height=17></img>&nbsp
+	<a class="one" href="https://github.com/TrustAIoT/"><u><b>Code</b></u></a> associated with papers are <b><i>open-sourced</i></b>.<br>
+	To download <b>BibTeX</b> for a paper you are interested in, visit <b>DBLP</b> at the bottom of this page in the "Miscellaneous" section.<p>
+	<b><font color=darkred>Selected list from 2020 onward (after starting faculty position):</font></b><p>
+
+	<li><b>[PAKDD'24]</b> <a class="two" href="https://link.springer.com/chapter/10.1007/978-981-97-2238-9_26">Adversarial-Robust Transfer Learning for Medical Imaging via Domain Assimilation</a> [<a class="one" href="https://link.springer.com/content/pdf/10.1007/978-981-97-2238-9_26.pdf?pdf=inline%20link">pdf</a>] [<a class="one" href="https://arxiv.org/abs/2402.16005">arXiv</a>] [<a class="one" href="pub/PAKDD24 Robust Medical.pdf"><font color=CHOCOLATE>slides</font></a>] <font size=2>[DOI: <a class="two" href="10.1007/978-981-97-2238-9_26">10.1007/978-981-97-2238-9_26</a>]</font><br>
+		X. Chen and <b>T. Luo</b><br>
+		<i>28th Pacific-Asia Conference on Knowledge Discovery and Data Mining</i> (PAKDD), May 2024.<br>
+		<font color=green><i><b>Acceptance rate: 18.5% (133/720)</b></i></font> (oral presentations)<br>
+		<a class="three" href="pub/PAKDD24_Best_paper_runner-up.jpg"><font color=red><b>Best Paper Runner-Up Award</b></font></a> (0.28%; 2/720) [<a class="one" href="https://econnection.mst.edu/2024/06/luo-receives-best-paper-runner-up/">University News</a>]</li>
+
+	<li><b>[PAKDD'24]</b> <a class="two" href="https://link.springer.com/chapter/10.1007/978-981-97-2259-4_6">Unmasking Dementia Detection through Masking Input Gradients: A JSM Approach to Model Interpretability and Precision</a> [<a class="one" href="https://link.springer.com/content/pdf/10.1007/978-981-97-2259-4_6.pdf?pdf=inline%20link">pdf</a>] [<a class="one" href="https://arxiv.org/abs/2402.16008">arXiv</a>] [<a class="one" href="pub/PAKDD24 Jacobian poster.pdf"><font color=CHOCOLATE>poster</font></a>]<br>
+		Y. Mustafa and <b>T. Luo</b><br>
+		<i>28th Pacific-Asia Conference on Knowledge Discovery and Data Mining</i> (PAKDD), May 2024.<br>
+		<font color=LIGHTSLATEGRAY><i>Acceptance rate: 24.3% (175/720; 133 oral + 42 poster presentations, all appearing in proceedings the same as FULL papers)</i></font></li>
+
+	<li><b>[PerCom'24]</b> <a class="two" href="https://ieeexplore.ieee.org/document/10494442">Stitching Satellites to the Edge: Pervasive and Efficient Federated LEO Satellite Learning</a> [<a class="one" href="https://arxiv.org/abs/2401.15541">arXiv</a>] [<a class="one" href="pub/PerCom24_slides-compressed.pdf"><font color=CHOCOLATE>slides</font></a>] <font size=2>[DOI: <a class="two" href="10.1109/PerCom59722.2024.10494442">10.1109/PerCom59722.2024.10494442</a>]</font><br>
+		M. Elmahallawy and <b>T. Luo</b><br>
+		<i>22nd IEEE International Conference on Pervasive Computing and Communications</i> (PerCom), March 2024, pp. 80-89.<br>
+		<font color=green><i><b>Acceptance rate: 14.5%</b></i></font> (23/158)
+		<font color=LIGHTSLATEGRAY size=2>Among the 158 full submissions, 15 (including ours) were accepted as full papers and 8 accepted as short papers.</font><br>
+		<a class="three" href="pub/PerCom24_Best_paper_runner-up.jpg"><font color=red><b>Best Paper Runner-Up Award</b></font></a> (1.3%; 2/158)</li>
+
+	<li><b>[AAAI'24]</b> <a class="two" href="https://ojs.aaai.org/index.php/AAAI/article/view/28430">LRS: Enhancing Adversarial Transferability through Lipschitz Regularized Surrogate</a> [<a class="one" href="https://arxiv.org/abs/2312.13118">arXiv</a>] [<a class="one" href="pub/AAAI24_LRS_poster_version.pdf"><font color=CHOCOLATE>poster version</font></a>] [<a class="one" href="https://github.com/TrustAIoT/LRS"><font color=CHOCOLATE><b>code</b></font></a>] <font size=2>[DOI: <a class="two" href="https://doi.org/10.1609/aaai.v38i6.28430">10.1609/aaai.v38i6.28430</a>]</font><br>
+		T. Wu, <b>T. Luo</b>, and D. C. Wunsch<br>
+		<i>38th AAAI Conference on Artificial Intelligence</i> (AAAI), vol. 38, no. 6, pp. 6135-6143, February 2024.<br>
+		<font color=green><i><b>Acceptance rate: 19%</b></i></font> (2342/12100)
+		<font color=LIGHTSLATEGRAY size=2>Among the 12100 submissions to the main track, 2238 were desk-rejected.</font></li>
+
+	<li><b>[AAAI'24]</b> <a class="two" href="https://ojs.aaai.org/index.php/AAAI/article/view/28431">CR-SAM: Curvature Regularized Sharpness-Aware Minimization</a> [<a class="one" href="https://arxiv.org/abs/2312.13555">arXiv</a>] [<a class="one" href="pub/AAAI24_CR-SAM_poster_version.pdf"><font color=CHOCOLATE>poster version</font></a>] [<a class="one" href="https://github.com/TrustAIoT/CR-SAM"><font color=CHOCOLATE><b>code</b></font></a>] <font size=2>[DOI: <a class="two" href="https://doi.org/10.1609/aaai.v38i6.28431">10.1609/aaai.v38i6.28431</a>]</font><br>
+		T. Wu, <b>T. Luo</b>, and D. C. Wunsch<br>
+		<i>38th AAAI Conference on Artificial Intelligence</i> (AAAI), vol. 38, no. 6, pp. 6144-6152, February 2024.<br>
+		<font color=green><i><b>Acceptance rate: 19%</b></i></font> (2342/12100)
+		<font color=LIGHTSLATEGRAY size=2>Among the 12100 submissions to the main track, 2238 were desk-rejected.</font></li>
+
+	<li><b>[JSAC'24]</b> <a class="two" href="https://ieeexplore.ieee.org/document/10438925">Communication-Efficient Federated Learning for LEO Satellite Networks Integrated with HAPs using hybrid NOMA-OFDM</a> [<a class="one" href="https://arxiv.org/abs/2401.00685">arXiv</a>] <font size=2>[DOI: <a class="two" href="https://doi.org/10.1109/JSAC.2024.3365885">10.1109/JSAC.2024.3365885</a>]</font><br>
+		M. Elmahallawy, <b>T. Luo</b>, and K. Ramadan<br>
+		<i>IEEE Journal on Selected Areas in Communications</i> (JSAC), vol. 42, no. 5, pp. 1097-1114, May 2024.</li>
+
+	<li><b>[Healthcom'23]</b> <a class="two" href="https://ieeexplore.ieee.org/document/10472348">Diagnosing Alzheimer's Disease using Early-Late Multimodal Data Fusion with Jacobian Maps</a> [<a class="one" href="https://arxiv.org/abs/2310.16936">arXiv</a>] [<a class="one" href="pub/Healthcom-Slides-Dec2023-compressed.pdf"><font color=CHOCOLATE>slides</font></a>] <font size=2>[DOI: <a class="two" href="https://doi.org/10.1109/Healthcom56612.2023.10472348">10.1109/Healthcom56612.2023.10472348</a>]</font><br>
+		Y. Mustafa and <b>T. Luo</b><br>
+		<i>IEEE International Conference on E-health Networking, Application & Services</i> (Healthcom), December 2023, pp. 49-55.</li>
+
+	<!--li><b>[Globecom'23]</b> <a class="two" href="https://ieeexplore.ieee.org/document/10436841">Secure and Efficient Federated Learning in LEO Constellations using Decentralized Key Generation and On-Orbit Model Aggregation</a> [<a class="one" href="https://arxiv.org/abs/2309.01828">arXiv</a>] <font size=2>[DOI: <a class="two" href="https://doi.org/10.1109/GLOBECOM54140.2023.10436841">10.1109/GLOBECOM54140.2023.10436841</a>]</font><br>
+		M. Elmahallawy, <b>T. Luo</b>, and M. I. Ibrahem<br>
+		<i>IEEE Global Communications Conference</i> (GLOBECOM), December 2023, pp. 5727-5732.</li-->
+
+	<!--li><b>[TrustCom'23]</b> <a class="one" href="pub/TrustCom23_model_test_FL.pdf">Crowdsourcing-based Model Testing in Federated Learning</a><br>
+		Y. Yi, H. Lv, <b>T. Luo</b>, L. Liu, L. Cui<br>
+		<i>22nd IEEE International Conference on Trust, Security and Privacy in Computing and Communications</i> (TrustCom), November 2023.</li-->
+
+	<!--li><b>[ComMag'23]</b> <a class="two" href="https://ieeexplore.ieee.org/document/10298644">Catching Elusive Depression via Facial Micro-Expression Recognition</a> [<a class="one" href="https://arxiv.org/abs/2307.15862">arXiv</a>] <font size=2>[DOI: <a class="two" href="https://doi.org/10.1109/MCOM.001.2300003">10.1109/MCOM.001.2300003</a>]</font><br>
+		X. Chen and <b>T. Luo</b><br>
+		<i>IEEE Communications Magazine</i>, vol. 61, no. 10, pp. 30-36, October 2023.</li-->
+
+	<!--li><b>[ICIP'23]</b> <a class="two" href="https://ieeexplore.ieee.org/document/10223158">GNP Attack: Transferable Adversarial Examples via Gradient Norm Penalty</a> [<a class="one" href="https://arxiv.org/abs/2307.04099">arXiv</a>] <font size=2>[DOI: <a class="two" href="https://doi.org/10.1109/ICIP49359.2023.10223158">10.1109/ICIP49359.2023.10223158</a>]</font><br>
+		T. Wu, <b>T. Luo</b>, and D. C. Wunsch<br>
+		<i>30th IEEE International Conference on Image Processing</i> (ICIP), October 2023, pp. 3110-3114.</li-->
+
+	<li><b>[Pattern'23]</b> <a class="two" href="https://www.sciencedirect.com/science/article/pii/S0031320323001516">YOGA: Deep Object Detection in the Wild with Lightweight Feature Learning and Multiscale Attention</a> [<a class="one" href="https://arxiv.org/abs/2307.05945">arXiv</a> (new)] [<a class="one" href="https://github.com/TrustAIoT/YOGA"><font color=CHOCOLATE><b>code</b></font></a>] <font size=2>[DOI: <a class="two" href="https://doi.org/10.1016/j.patcog.2023.109451">10.1016/j.patcog.2023.109451</a>]</font><br>
+		R. Sunkara and <b>T. Luo</b><br>
+		<i>Pattern Recognition</i>, vol. 139, pp. 109451, July 2023.</li>
+
+	<!--li><b>[EDGE'23]</b> <a class="two" href="https://ieeexplore.ieee.org/document/10234322">LightESD: Fully-Automated and Lightweight Anomaly Detection Framework for Edge Computing</a> [<a class="one" href="https://arxiv.org/abs/2305.12266">arXiv</a>] <font size=2>[DOI: <a class="two" href="https://doi.org/10.1109/EDGE60047.2023.00032">10.1109/EDGE60047.2023.00032</a>]</font><br>
+		R. Das and <b>T. Luo</b><br>
+		<i>IEEE International Conference on Edge Computing</i> (EDGE), July 2023, pp. 150-158.<br>
+		<font color=green><i><b>Acceptance rate: 17%</b></i></font> (full paper)</li-->
+
+	<!--li><b>[MDM'23]</b> <a class="two" href="https://ieeexplore.ieee.org/document/10214895">One-Shot Federated Learning for LEO Constellations that Reduces Convergence Time from Days to 90 Minutes</a> [<a class="one" href="https://arxiv.org/abs/2305.12316">arXiv</a>] <font size=2>[DOI: <a class="two" href="https://doi.org/10.1109/MDM58254.2023.00020">10.1109/MDM58254.2023.00020</a>]</font><br>
+		M. Elmahallawy and <b>T. Luo</b><br>
+		<i>24th IEEE International Conference on Mobile Data Management</i> (MDM), July 2023, pp. 45-54.</li-->
+		<!--br><i>Acceptance rate (full paper): 29%</i> (18/62) or 26% (17/65)?-->
+
+	<li><b>[PAKDD'23]</b> <a class="two" href="https://link.springer.com/chapter/10.1007/978-3-031-33374-3_4">TSI-GAN: Unsupervised Time Series Anomaly Detection using Convolutional Cycle-Consistent Generative Adversarial Networks</a> [<a class="one" href="https://link.springer.com/content/pdf/10.1007/978-3-031-33374-3_4.pdf?pdf=inline%20link">pdf</a>] [<a class="one" href="https://arxiv.org/abs/2303.12952">arXiv</a>] [<a class="one" href="https://github.com/TrustAIoT/TSI-GAN"><font color=CHOCOLATE><b>code</b></font></a>] <font size=2>[DOI: <a class="two" href="https://doi.org/10.1007/978-3-031-33374-3_4">10.1007/978-3-031-33374-3_4</a>]</font><br>
+		S.S. Saravanan, <b>T. Luo</b>, and M.V. Ngo<br>
+		<i>27th Pacific-Asia Conference on Knowledge Discovery and Data Mining</i> (PAKDD), May 2023, pp. 39–54.<br>
+		<font color=green><i><b>Acceptance rate: 16.5%</b></i></font> (143/869) <font color=LIGHTSLATEGRAY size=2>The initial number 822 quoted in the acceptance email was later corrected to 869 in the Conference Summary Report presented at the conference closing ceremony.</font></li>
+
+	<!--li><b>[ICC'23]</b> <a class="two" href="https://ieeexplore.ieee.org/document/10279316">Optimizing Federated Learning in LEO Satellite Constellations via Intra-Plane Model Propagation and Sink Satellite Scheduling</a> [<a class="one" href="https://arxiv.org/abs/2302.13447">arXiv</a>] <font size=2>[DOI: <a class="two" href="https://doi.org/10.1109/ICC45041.2023.10279316">10.1109/ICC45041.2023.10279316</a>]</font><br>
+		M. Elmahallawy and <b>T. Luo</b><br>
+		<i>IEEE International Conference on Communications</i> (ICC), May 2023, pp. 3444-3449.</li-->
+
+	<!--li><b>[TechRep]</b> <a class="two" href="https://arxiv.org/abs/2304.10018">Digital Twin Graph: Automated Domain-Agnostic Construction, Fusion, and Simulation of IoT-Enabled World</a><br>
+		J. Du and <b>T. Luo</b><br>
+		Technical report, <i>arXiv preprint 2304.10018</i>, Apr 2023.</li-->
+
+	<!--li><b>[ARAI'23]</b> <a class="two" href="https://www.worldscientific.com/doi/10.1142/S2811032322500059">Black-Box Attack using Adversarial Examples: A New Method of Improving Transferability</a> <font size=2>[DOI: <a class="two" href="https://doi.org/10.1142/S2811032322500059">10.1142/S2811032322500059</a>]</font><br>
+		T. Wu, <b>T. Luo</b>, and D. C. Wunsch<br>
+		<i>World Scientific Annual Review of Artificial Intelligence</i>, Vol. 1, pp. 2250005, February 2023.<br></li-->
+
+	<li><b>[BigData'22]</b> <a class="two" href="https://ieeexplore.ieee.org/document/10021101">AsyncFLEO: Asynchronous Federated Learning for LEO Satellite Constellations with High-Altitude Platforms</a> [<a class="one" href="https://arxiv.org/abs/2212.11522">arXiv</a>] <font size=2>[DOI: <a class="two" href="https://doi.org/10.1109/BigData55660.2022.10021101">10.1109/BigData55660.2022.10021101</a>]</font><br>
+		M. Elmahallawy and <b>T. Luo</b><br>
+		<i>IEEE International Conference on Big Data</i>, December 2022, pp. 5478-5487.<br>
+		<font color=green><i><b>Acceptance rate: 19%</b></i></font> (122/633; full paper)</li>
+
+	<!--li><b>[SSCI'22]</b> <a class="two" href="https://ieeexplore.ieee.org/document/10022224">Learning Deep Representations via Contrastive Learning for Instance Retrieval</a> [<a class="one" href="https://arxiv.org/abs/2209.13832">arXiv</a>] <font size=2>[DOI: <a class="two" href="https://doi.org/10.1109/SSCI51031.2022.10022224">10.1109/SSCI51031.2022.10022224</a>]</font><br>
+		T. Wu, <b>T. Luo</b>, and D. C. Wunsch<br>
+		<i>IEEE Symposium Series On Computational Intelligence</i> (SSCI), December 2022, pp. 1501-1506.</li>
+
+	<li><b>[WCSP'22]</b> <a class="two" href="https://ieeexplore.ieee.org/abstract/document/10039157">FedHAP: Fast Federated Learning for LEO Constellations Using Collaborative HAPs</a> [<a class="one" href="https://arxiv.org/abs/2205.07216">arXiv</a>] [<a class="one" href="pub/FedHAP_WCSP22_slides-compressed.pdf"><font color=CHOCOLATE>slides</font></a>] <font size=2>[DOI: <a class="two" href="https://doi.org/10.1109/WCSP55476.2022.10039157">10.1109/WCSP55476.2022.10039157</a>]</font><br>
+		M. Elmahallawy and <b>T. Luo</b><br>
+		<i>14th International Conference on Wireless Communications and Signal Processing</i>, November 2022,  pp. 888-893.</li-->
+
+	<li><b>[ESORICS'22]</b> <a class="two" href="https://link.springer.com/chapter/10.1007/978-3-031-17143-7_22">Long-Short History of Gradients is All You Need: Detecting Malicious and Unreliable Clients in Federated Learning</a> [<a class="one" href="https://link.springer.com/content/pdf/10.1007/978-3-031-17143-7_22.pdf?pdf=inline%20link">pdf</a>] [<a class="one" href="https://arxiv.org/abs/2208.10273">arXiv</a>] [<a class="one" href="https://youtu.be/i6C0wY6gkWg"><font color=CHOCOLATE>video</font></a>] [<a class="one" href="https://github.com/TrustAIoT/MUD-HoG_Federated_Learning"><font color=CHOCOLATE><b>code</b></font></a>] <font size=2>[DOI: <a class="two" href="https://doi.org/10.1007/978-3-031-17143-7_22">10.1007/978-3-031-17143-7_22</a>]</font><br>
+		A. Gupta, <b>T. Luo</b>, M. V. Ngo, and S. K. Das <br>
+		<i>The 27th European Symposium on Research in Computer Security</i> (ESORICS), September 2022, pp. 445-465.<br>
+		<font color=green><i><b>Acceptance rate: 19%</b></i></font></li>
+
+	<!--https://link.springer.com/epdf/10.1007/978-3-031-26409-2_27-->
+	<li><b>[ECML PKDD'22]</b> <a class="two" href="https://link.springer.com/chapter/10.1007/978-3-031-26409-2_27">No More Strided Convolutions or Pooling: A New CNN Building Block for Low-Resolution Images and Small Objects</a> [<a class="one" href="https://link.springer.com/content/pdf/10.1007/978-3-031-26409-2_27.pdf?pdf=inline%20link">pdf</a>] [<a class="one" href="https://arxiv.org/abs/2208.03641">arXiv</a>] [<a class="one" href="https://youtu.be/UlJQZFMdUEk"><font color=CHOCOLATE>video</font></a>] [<a class="one" href="https://github.com/TrustAIoT/SPD-Conv"><font color=CHOCOLATE><b>code</b></font></a>] <font size=2>[DOI: <a class="two" href="https://doi.org/10.1007/978-3-031-26409-2_27">10.1007/978-3-031-26409-2_27</a>]</font><br>
+		R. Sunkara and <b>T. Luo</b><br>
+		<i>European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases</i> (<a class="two" href="https://en.wikipedia.org/wiki/ECML_PKDD">ECML PKDD</a>), September 2022, pp. 443-459.<br>
+		<i>Acceptance rate: 26%</i> (242/932)</li>
+
+	<li><b>[TIOT'21]</b> <a class="two" href="https://dl.acm.org/doi/10.1145/3480172">Adaptive Anomaly Detection for Internet of Things in Hierarchical Edge Computing: A Contextual-Bandit Approach</a> [<a class="one" href="https://www.youtube.com/watch?v=byMEn6u_UrU"><font color=CHOCOLATE>video</font></a>] <font size=2>[DOI: <a class="two" href="https://doi.org/10.1145/3480172">10.1145/3480172</a>]</font><br>
+		M.V. Ngo, <b>T. Luo</b>, and Q.S. Quek<br>
+		<i>ACM Transactions on Internet of Things</i> (TIOT). 
+		Vol. 3, No. 1, pp. 1-23, October 2021.</li><!--(Printed Copy Issue Date: February 2022)-->
+
+	<!--li><b>[WiOpt'21]</b> <a class="two" href="https://ieeexplore.ieee.org/abstract/document/9589136">Data-Free Evaluation of User Contributions in Federated Learning</a> <font size=2>[DOI: <a class="two" href="https://doi.org/10.23919/WiOpt52861.2021.9589136">10.23919/WiOpt52861.2021.9589136</a>]</font><br>
+		H. Lv, Z. Zheng, <b>T. Luo</b>, F. Wu, S. Tang, L. Hua, R. Jia and C. Lv<br>
+		<i>International Symposium on Modeling and Optimization in Mobile, Ad Hoc, and Wireless Networks</i> (WiOpt), October 2021.</li-->
+
+	<!--http://www.ifaamas.org/Proceedings/aamas2021/pdfs/p1707.pdf-->
+	<!--li><b>[AAMAS'21]</b> <a class="two" href="https://dl.acm.org/doi/10.5555/3463952.3464208">A Blockchain-Enabled Quantitative Approach to Trust and Reputation Management with Sparse Evidence</a><br>
+		L. Zeynalvand, <b>T. Luo</b>, E. Andrejczuk, D. Niyato, S.G. Teo, and J. Zhang<br>
+		<i>International Conference on Autonomous Agents and Multiagent Systems</i> (AAMAS), May 2021.<br>
+		<i>Acceptance rate: 24.8%</i> (152/612)</li>
+
+	<li><b>[Globecom'20]</b> <a class="two" href="https://ieeexplore.ieee.org/document/9322368">Coordinated Container Migration and Base Station Handover in Mobile Edge Computing</a> [<a class="one" href="https://arxiv.org/abs/2009.05682">arXiv</a>] [<a class="one" href="https://www.youtube.com/watch?v=IqsHe43lHaw"><font color=CHOCOLATE>video</font></a>] [<a class="one" href="https://gitlab.com/ngovanmao/edgecomputing"><font color=CHOCOLATE><b>code</b></font></a>]<br>
+		M.V. Ngo, <b>T. Luo</b>, H.T. Hoang, and Q.S. Quek<br>
+		<i>IEEE Global Communications Conference</i> (GLOBECOM), December 2020.</li>
+
+	<li><b>[KDD'20w]</b> <a class="two" href="https://aiotworkshop.github.io/published/KDD20-AIoT-camera_ready.pdf">Man-in-the-Middle Attacks on MQTT-based IoT Using BERT based Adversarial Message Generation</a><br>
+		H. Wong and <b>T. Luo</b><br>
+		<i>26th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining</i> (KDD), Workshop on AIoT</i>, August 2020.</li>
+
+	<li><b>[ICDCS'20]</b> <a class="two" href="https://ieeexplore.ieee.org/document/9355599">Contextual-Bandit Anomaly Detection for IoT Data in Distributed Hierarchical Edge Computing</a> [<a class="one" href="https://arxiv.org/abs/2004.06896">arXiv</a>] <font size=2>[DOI: <a class="two" href="https://doi.org/10.1109/ICDCS47774.2020.00191">10.1109/ICDCS47774.2020.00191</a>]</font><br>
+		M.V. Ngo, <b>T. Luo</b>, H. Chaouchi, and Q.S. Quek<br>
+		<i>IEEE International Conference on Distributed Computing Systems</i> (ICDCS), December 2020, pp. 1227-1230.</li>
+
+	<li><b>[Huge'20]</b> <a class="one" href="pub/HugeData20-Scalable Distributed Machine Learning for IoT.pdf">Scalable Distributed Machine Learning with Huge Data for IoT and Scientific Discovery</a><br>
+		<b>T. Luo</b> and S. K. Das<br>
+		<i>National Science Foundation (NSF) Large Scale Networking Workshop on Huge Data</i>, Chicago, IL, April 13-14, 2020.</li-->
+
+	<li><b>[AAAI'20]</b> <a class="two" href="https://ojs.aaai.org//index.php/AAAI/article/view/6225">COBRA: Context-aware Bernoulli neural networks for reputation assessment</a> [<a class="one" href="https://arxiv.org/abs/1912.08446">arXiv</a>]<br>
+		L. Zeynalvand, <b>T. Luo</b>, and J. Zhang<br>
+		<i>34th AAAI Conference on Artificial Intelligence</i> (AAAI), New York, NY, Feb 2020, pp. 7317-7324.<br>
+		<font color=green><i><b>Acceptance rate: 20%</b></i></font></li>
+
+	<li><b>[AAAI'20]</b> <a class="two" href="https://ojs.aaai.org//index.php/AAAI/article/view/5589">Mechanism design with predicted task revenue for bike sharing systems</a> [<a class="one" href="https://arxiv.org/abs/1911.07706">arXiv</a>]<br>
+		H. Lv, C. Zhang, Z. Zheng, <b>T. Luo</b>, F. Wu and G. Chen<br>
+		<i>34th AAAI Conference on Artificial Intelligence</i> (AAAI), New York, NY, Feb 2020, pp. 2144-2151.<br>
+		<font color=green><i><b>Acceptance rate: 20%</b></i></font></li>
+
+	<!--li><b>[AAAI'20w]</b> <a class="two" href="https://aiotworkshop.github.io/2020/published/hierarchicalAD_AIoT_B_CameraReady.pdf">Adaptive Anomaly Detection for IoT Data in Hierarchical Edge Computing</a> [<a class="one" href="https://arxiv.org/abs/2001.03314">arXiv</a>]<br>
+		M.V. Ngo, H. Chaouchi, <b>T. Luo</b>, and Q.S. Quek<br>
+		<i>34th AAAI Conference on Artificial Intelligence</i> (AAAI), Workshop on AIoT, New York, NY, Feb 2020.</li-->
+
+	<!--li><b>[TOPS'20]</b> <a class="two" href="https://dl.acm.org/doi/10.1145/3375752">CrowdPrivacy: Publish More Useful Data with Less Privacy Exposure in Crowdsourced Location-based Services</a> <font size=2>[DOI: <a class="two" href="https://doi.org/10.1145/3375752">10.1145/3375752</a>]</font><br>
+		F-J. Wu and <b>T. Luo</b><br>
+		<i>ACM Transactions on Privacy and Security</i> (TOPS),
+		Vol. 23, No. 1, pp. 6:1-25, February 2020.</li-->
+
+<p><b><font color=darkred>Selected list before 2020 (prior to starting faculty position):</font> <!--i>see <a class="one" href="publications.html"><u>full list</u></a> which contains graphic illustrations.</i--></b></p>
+
+	<li><b>[IoT-J'19]</b> <a class="two" href="https://ieeexplore.ieee.org/document/8666717">Improving IoT data quality in mobile crowd sensing: A cross validation approach</a> <font size=2>[DOI: <a class="two" href="https://doi.org/10.1109/JIOT.2019.2904704">10.1109/JIOT.2019.2904704</a>]</font><br>
+		<b>T. Luo</b>, J. Huang, S. S. Kanhere, J. Zhang, and S. K. Das<br>
+		<i>IEEE Internet of Things Journal</i> (IoT-J), vol. 6, no. 3, pp. 5651-5664, June 2019.<br>
+		<div style="margin-left:2%;"><font color=LIGHTSLATEGRAY size=2>A cross validation (CV) approach that seeks a <i>validating crowd</i> to ratify the quality of sensor data contributed by the a <i>contributing crowd</i>. By making an exploration-exploitation tradeoff, a unified solution is offered to two disparate cases: <i>reinforce obscure truth</i> and <i>discover hidden truth</i>. (See <a class="one" href="publications.html#iotj19">illustration</a>.)</font></div></li>
+	
+	<li><b>[ICC'18]</b> <a class="two" href="https://ieeexplore.ieee.org/document/8422402">Distributed anomaly detection using autoencoder neural networks in WSN for IoT</a> <font size=2>[DOI: <a class="two" href="https://doi.org/10.1109/ICC.2018.8422402">10.1109/ICC.2018.8422402</a>]</font><br>
+		<b>T. Luo</b> and S. Nagarajan<br>
+		<i>IEEE International Conference on Communications</i> (ICC), May 2018.<br>
+		<!--img src="img/autoencoder_icc18_luo.png"><img src="img/arch_icc18_luo.png"><br-->
+		<div style="margin-left:2%;"><font color=LIGHTSLATEGRAY size=2>This paper is the first that introduces <i>autoencoder networks</i> into wireless sensor networks (WSN) for distributed anomaly detection. It divides and allocates computation load to sensors and the IoT cloud with a two-part algorithm. (See <a class="one" href="publications.html#icc18">illustration</a>.)</font></div></li>
+
+	<li>[AAIM'18] <a class="two" href="https://link.springer.com/chapter/10.1007%2F978-3-030-04618-7_21">Achieving location truthfulness in rebalancing supply-demand distribution for bike sharing</a> <font size=2>[DOI: <a class="two" href="http://dx.doi.org/10.1007/978-3-030-04618-7_21">10.1007/978-3-030-04618-7_21</a>]</font><br>
+		H. Lv, F. Wu, <b>T. Luo</b>, X. Gao, and G. Chen<br>
+		<i>12th International Conference on Algorithmic Aspects in Information and Management</i> (AAIM), pp. 256-267, December 2018.<br>
+		<a class="three" href="pub/AAIM18_Best_Student_Paper.jpg"><font color=red><b>Best Student Paper Award</b></font></a> (2%; 1/50)</li>
+
+	<a name=commag17 id=commag17></a>
+	<li><b>[ComMag'17]</b> <a class="two" href="https://ieeexplore.ieee.org/document/7876960">Sustainable incentives for mobile crowdsensing: Auctions, lotteries, and trust and reputation systems</a> <font size=2>[DOI: <a class="two" href="http://dx.doi.org/10.1109/MCOM.2017.1600746CM">10.1109/MCOM.2017.1600746CM</a>]</font><br>
+		<b>T. Luo</b>, S. S. Kanhere, J. Huang, S. K. Das, and F. Wu<br>
+		<i>IEEE Communications Magazine</i>, vol. 55, no. 3, pp. 68-74, March 2017.<br><!--http://arxiv.org/abs/1701.00248-->
+		<!--img src="img/survey_vertical.png"> <img src="img/six-incentives.jpg"><br-->
+		<div style="margin-left:2%;"><font color=LIGHTSLATEGRAY size=2>This survey paper provides a technical overview and analysis of six incentive mechanism design frameworks: auction, lottery, trust and reputation system, bargaining game, contract theory, and market-driven mechanism.</font></div></li>
+
+	<a name=tist16 id=tist16></a>
+	<li><b>[TIST'16]</b> <a class="two" href="https://dl.acm.org/doi/10.1145/2837029">Incentive mechanism design for crowdsourcing: an all-pay auction approach</a> [<a class="two" href="pub/TIST16-crowdsourcing-incentive-allpay-auction.pdf">pdf</a>] <font size=2>[DOI: <a class="two" href="https://doi.org/10.1145/2837029">10.1145/2837029</a>]</font><br>
+		<b>T. Luo</b>, S. K. Das, H-P. Tan, and L. Xia<br>
+		<i>ACM Transactions on Intelligent Systems and Technology</i> (TIST), vol. 7, no. 3, pp. 35:1-26, February 2016.<br>
+		<!--img src="img/allpay_vs_winner240.png"> (table from <a class="one" href="#commag17">ComMag'17</a>)<br-->
+		<div style="margin-left:2%;"><font color=LIGHTSLATEGRAY size=2>The most adopted auctions in incentive mechanism design so far have been <i>winner-pay auctions</i> (WPA), in which only winners (who outbid others and will therefore receive reward) need to pay their bids. By contrast, <i>all-pay auctions</i> (APA) require all the participants regardless of who win the auction to pay their bids. This apparently sounds unreasonable, but when applied to crowdsourcing, it makes perfect sense and gains two important advantages over WPA. (This paper builds on our <a class="one" href=#infocom14>INFOCOM'14 paper</a>.)</font></div></li>
+		<!--"2-in-1" simplicity and risk-free of task non-fulfillment.--><!--a href="http://dl.acm.org/citation.cfm?id=2837029">ACM DL page</a-->
+
+	<a name=tmc16het id=tmc16het></a>
+	<li><b>[TMC'16]</b> <a class="two" href="https://ieeexplore.ieee.org/document/7287773">Incentive mechanism design for heterogeneous crowdsourcing using all-pay contests</a> <font size=2>[DOI: <a class="two" href="http://dx.doi.org/10.1109/TMC.2015.2485978">10.1109/TMC.2015.2485978</a>]</font><br>
+		<b>T. Luo</b>, S. S. Kanhere, S. K. Das, and H-P. Tan<br>
+		<i>IEEE Transactions on Mobile Computing</i> (TMC), vol. 15, no. 9, pp. 2234-2246, September 2016.<br>
+		<!--img src="img/heterogeneous_crowdsourcing.png"> <img src="img/hetero_label.png"> (see <a class="one" href="img/TMC16-model.png">model illustration</a>)<br-->
+		<div style="margin-left:2%;"><font color=LIGHTSLATEGRAY size=2>Despite that crowdworkers 
+		are typically heterogeneous (in abilities, costs, etc.), the daunting challenge of modeling and analyzing such scenarios has restricted researchers to choosing homogeneous models in which all the worker types follow a single, common distribution (Bayesian belief). This paper addresses this challenge using an <i>asymmetric all-pay auction</i> model with a <i>prize tuple</i>. Not only does it achieve better performance, but it also uncovers a counter-intuitive and interesting property called <i>strategy autonomy</i>, in which the asymmetric equilibrium collapses into a symmetric one.</font></div></li>
+		<!--in which each worker chooses a strategy without reasoning about what others will choose!</font></li><p-->
+
+	<!--li><b>[TMC'16]</b> <a class="two" href="https://ieeexplore.ieee.org/document/7398086">Competition-based participant recruitment for delay-sensitive crowdsourcing applications in D2D networks</a> <font size=2>[DOI: <a class="two" href="http://dx.doi.org/10.1109/TMC.2016.2524590">10.1109/TMC.2016.2524590</a>]</font><br>
+		Y. Han, <b>T. Luo</b>, D. Li, and H. Wu<br>
+		<i>IEEE Transactions on Mobile Computing</i> (TMC), vol. 15, no. 12, pp. 2987-2999, December 2016.<br>
+		<div style="margin-left:2%;"><font color=LIGHTSLATEGRAY size=2>To reduce the large delay in Device-to-Device (D2D) networks, two distributed approaches were proposed that closely approximate a centralized, <i>dynamic programming</i> algorithm: (1) divide-and-conquer with <i>Voronoi cells</i>, (2) task splitting and delegation.</font></div></li-->
+
+	<li><b>[INFOCOM'15]</b> <a class="two" href="https://ieeexplore.ieee.org/document/7218641">Crowdsourcing with Tullock contests: A new perspective</a> <font size=2>[DOI: <a class="two" href="http://dx.doi.org/10.1109/INFOCOM.2015.7218641">10.1109/INFOCOM.2015.7218641</a>]</font><br>
+		<b>T. Luo</b>, S. S. Kanhere, H-P. Tan, F. Wu, and H. Wu<br>
+		<i>The 34th IEEE International Conference on Computer Communications</i> (INFOCOM), April 2015, pp. 2515-2523.<br>
+		<font color=green><i><b>Acceptance rate: 19%</b></i></font> (316/1640)<br>
+		<font color=red><b>Best Paper Award finalist</b></font>  (0.3%; 5/1640)
+		<div style="margin-left:2%;"><font color=LIGHTSLATEGRAY size=2>What is a Tullock contest? Think it as a lucky draw! While auctions have dominated the realm of mechanism design for decades, this paper suggests Tullock contests as a better alternative, on the basis that it is less competitive and more conducive to larger participation.</font></div></li>
+
+	<!--li><b>[TMC'15]</b> <a class="two" href="https://ieeexplore.ieee.org/document/6832594">Quality of contributed service and market equilibrium for participatory sensing</a> <font size=2>[DOI: <a class="two" href="http://dx.doi.org/10.1109/TMC.2014.2330302">10.1109/TMC.2014.2330302</a>]</font><br>
+		C-K. Tham and <b>T. Luo</b><br>
+		<i>IEEE Transactions on Mobile Computing</i> (TMC), vol. 14, no. 4, pp. 829-842, April 2015.<br>
+		<div style="margin-left:2%;"><font color=LIGHTSLATEGRAY size=2>Characterizing QoS for crowdsensing is a challenge, and this work proposes a new metric called <i>Quality of Contributed Service</i> (QCS) to aggregate individual quality of contributions by taking information quality and time sensitivity into account. We analyze this metric using a market-based supply-and-demand model.</font></div></li-->
+		<!--We show that QCS can converge to a good market equilibrium when users start from purely random behaviors.-->
+		<!--br>[Extended work of DCOSS'13 paper.]-->
+
+	<a name=infocom14 id=infocom14></a>
+	<li><b>[INFOCOM'14]</b> <a class="two" href="https://ieeexplore.ieee.org/document/6847932">Profit-maximizing incentive for participatory sensing</a> <font size=2>[DOI: <a class="two" href="https://doi.org/10.1109/INFOCOM.2014.6847932">10.1109/INFOCOM.2014.6847932</a>]</font> [Much enhanced version: <a class="one" href="#tist16">ACM TIST'16</a>]<br>
+		<b>T. Luo</b>, H-P. Tan, and L. Xia<br>
+		<i>The 33rd IEEE International Conference on Computer Communications</i> (INFOCOM), April 2014, pp. 127-135.<br>
+		<font color=green><i><b>Acceptance rate: 19%</b></i></font> (319/1650)<br>
+		<div style="margin-left:2%;"><font color=LIGHTSLATEGRAY size=2>All-pay auction + adaptive prize/reward (see the short abstract of <a class="one" href=#tist16>TIST'16</a> or an <a class="one" href="publications.html#infocom14">illustration</a>).</font></div></li>
+
+	<li >[ICTC'12] <a class="two" href="https://ieeexplore.ieee.org/document/6386857">Enhancing Responsiveness and Scalability for OpenFlow Networks via Control-Message Quenching</a> <font size=2>[DOI: <a class="two" href="https://doi.org/10.1109/ICTC.2012.6386857">10.1109/ICTC.2012.6386857</a>]</font><br>
+		<b>T. Luo</b>, H-P. Tan, P. C. Quan, Y-W. Law, and J. Jin<br>
+		<i>International Conference on Infocom Technology Convergence</i> (ICTC), October 2012, pp. 348-353.<br>
+		<a class="three" href="pub/BestPaperAward_ICTC2012.pdf"><font color=red><b>Best Paper Award</b></font></a> (0.7%; 3/423)</li>
+
+	<li><b>[CommLett'12]</b> <a class="two" href="https://ieeexplore.ieee.org/document/6324377">Sensor OpenFlow: Enabling Software-Defined Wireless Sensor Networks</a><br>
+		<b>T. Luo</b>, H-P. Tan, and Q.S. Quek<br>
+		<i>IEEE Communications Letters</i>, vol. 16, no. 11, pp. 1896-1899, November 2012.<br>
+		<div style="margin-left:2%;"><font color=LIGHTSLATEGRAY size=2>This work is the first that introduces software-defined networking (SDN) into wireless sensor networks, where a Sensor OpenFlow protocol within a SD-WSN architecture was proposed.</font></div></li>
+
+	<li><b>[TMC'12]</b> <a class="two" href="https://ieeexplore.ieee.org/document/5740903">Energy-Efficient Strategies for Cooperative Multi-Channel MAC Protocols</a> [<a class="two" href="javascript:popupTMC12()">Bib</a>]<br>
+		<b>T. Luo</b>, M. Motani, and V. Srinivasan<br>
+		<i>IEEE Transactions on Mobile Computing</i> (TMC), vol. 11, no. 4, pp. 553-566, April 2012.
+	<script language="javascript" type="text/javascript">
+	function popupTMC12() {
+		newwindow2=window.open('','name','height=280,width=600');
+		var tmp = newwindow2.document;
+		tmp.write('<html><head><title>Bib</title>');
+		tmp.write('<link rel="stylesheet" href="js.css">');
+		tmp.write('</head><body>');
+		tmp.write('@article{tmc12coopmc,<br>'+
+		'author = {Tie Luo and Mehul Motani and Vikram Srinivasan},<br>'+
+		'title = {Energy-Efficient Strategies for Cooperative Multi-Channel {MAC} Protocols},<br>'+
+		'journal = {IEEE Transactions on Mobile Computing},<br>'+
+		'volume = {11},<br>'+
+		'number = {4},<br>'+
+		'pages = {553--566},<br>'+
+		'month = {April},<br>'+
+		'year = {2012},<br>}');
+		tmp.write('<p><a class="one" href="javascript:self.close()">close</a></p>');
+		tmp.write('</body></html>');
+		tmp.close();
+	}
+	</script></li>
+
+</ul>
+
+<img src="img/finger_green64.png" height=17></img>&nbsp
+<a class="one" href="publications.html"><u><b>Full list</b></u></a> contains <i>graphic illustrations</i>.<br>
+<!--img src="img/finger_red64.png" height=18>&nbsp
+<a class="one" href="https://scholar.google.com.sg/citations?user=4F60wpoAAAAJ&hl=en"><u><b>Google Scholar</b></u></a><br-->
+<img src="img/finger_green64.png" height=17></img>&nbsp
+<a class="one" href="http://dblp.org/pers/hd/l/Luo:Tie"><u><b>DBLP</b></u></a> <font size=2>(Download BiBTeX using the 2nd icon in front of each paper)</font><p>
+
+<a name=sys id=sys></a>
+  <hr size=2 width="100%" align=center>
+
+<p><b><span style='font-size:18pt'>Systems and Testbeds</span></b><p>
+
+In addition to my theoretical research, I believe it is equally invaluable to develop real systems or testbeds to validate theoretical innovations in a more convincing manner.<p>
+
+<table><!--border="1" bordercolor="lightgray" cellpadding="2" cellspacing="0" style="margin-bottom: 5px;"-->
+<tbody>
+  <tr>
+    <th align="left" style="padding-left: 200px;" colspan="4">IoT and Computer Vision</th>
+  </tr>
+  <tr>
+    <td><img src="img/sys/percom24.jpg" height=150></img></td>
+    <td width=120><a class="one" href="https://ieeexplore.ieee.org/document/10494442"><font size=2>Stitching Satellites to the Edge: Pervasive and Efficient Federated LEO Satellite Learning</font></a></td>
+    <td><img src="img/sys/pr23testbed.jpg" height=150></img></td>
+    <td width=120><a class="one" href="https://www.sciencedirect.com/science/article/pii/S0031320323001516"><font size=2>YOGA: Deep Object Detection in the Wild with Lightweight Feature Learning and Multiscale Attention</font></a></td>
+  </tr>
+</tbody>
+</table>
+
+<table>
+<tbody>
+  <tr>
+    <th align="left" style="padding-left: 200px;" colspan="4">Anomaly Detection for IoT and Edge</th>
+  </tr>
+  <tr>
+    <td rowspan="2"><img src="img/sys/icc18sensors.jpg" height=260></img></td>
+    <td rowspan="2" width=100><a class="one" href="https://ieeexplore.ieee.org/document/8422402"><font size=2>Distributed anomaly detection using autoencoder networks in WSN for IoT</font></a></td>
+    <td colspan="2"><img src="img/sys/tiot21hec.jpg" height=135></img><br>
+    <!--div style="max-width:600px; word-wrap:break-word;"--><a class="one" href="https://dl.acm.org/doi/10.1145/3480172"><font size=2>Adaptive Anomaly Detection for IoT in Hierarchical Edge Computing: A Contextual-Bandit Approach</font></a></td>
+    <tr><td width=115><img src="img/sys/edge23sbc.jpg" height=115></img></td>
+    <td width=460><div style="max-width:360px; word-wrap:break-word;"><a class="one" href="https://ieeexplore.ieee.org/document/10234322"><font size=2>LightESD: Fully-Automated and Lightweight Anomaly Detection Framework for Edge Computing</font></a></div></td></tr>
+  </tr>
+</tbody>
+</table>
+
+<table>
+<tbody>
+  <tr>
+    <th align="left" style="padding-left: 200px;" colspan="2">Mobile Edge Computing</th>
+  </tr>
+  <tr>
+    <td><img src="img/sys/gc20container.jpg" height=160></img></td>
+    <td width=300><a class="one" href="https://ieeexplore.ieee.org/document/9322368"><font size=2>Coordinated Container Migration and Base Station Handover in Mobile Edge Computing</font></a></td>
+  </tr>
+</tbody>
+</table>
+
+<table>
+<tbody>
+  <tr>
+    <th align="left" style="padding-left: 200px;" colspan="3">Mobile Crowdsensing<!--br>(Deployed on <i>Apple Store</i> and <i>Google Play</i> between 2014-2019)--></th>
+  </tr>
+  <tr>
+    <td><a href="https://www.facebook.com/foodpricesg/" target=_blank><img src="img/sys/logo-fp1.png" height=40></img></td>
+    <td><a href="https://apkpure.com/imreporter/com.i2r.im" target=_blank><img src="img/sys/logo-imrep.png" height=42></img></td>
+    <td><a href="https://www.facebook.com/wifiscout/" target=_blank><img src="img/sys/logo-wifi1.png" height=35></img></td>
+  </tr>
+  <tr>
+    <td width=320 colspan="2"><a class="one" href="https://ieeexplore.ieee.org/document/6990404"><font size=2>SEW-ing a Simple Endorsement Web to incentivize trustworthy participatory sensing</font></a></td>
+    <td width=190><a class="one" href="https://ieeexplore.ieee.org/document/7035738"><font size=1>WiFiScout: A crowdsensing WiFi advisory system with gamification-based incentive</font></a></td>
+  </tr>
+</tbody>
+</table>
+
+<!----------------------------------------a name=talk id=talk></a>
+  <div class=MsoNormal align=center style='text-align:center'><span
+  style='mso-fareast-font-family:"xyz"'>
+  <hr size=2 width="100%" align=center>
+  </span></div>
+
+  <p><b><span style='font-size:18pt'>Tutorial & Invited Talks</span></b></p>
+  <ul type=disc>
+	<li></li>
+	<li></li>
+  </ul>---------------------------->
+
+<a name=stud id=stud></a>
+  <hr size=2 width="100%" align=center>
+
+  <p><b><span style='font-size:18pt'>Students</span></b></p>
+
+	<i><b><font color=red>Prospective students:</font></b></i> I advise PhD students in CS/CE/EE. Please read <a href="prospective_students.html">this note</a> before applying to my group.<br>
+<i><b>Postdocs:</b></i> Two fellowship opportunities are currently <a href="https://www.research.uky.edu/internal-research-support-programs/postdoctoral-fellowships">open</a>, but you must be a US citizen, national, or PR to be eligible.<p>
+
+  <ul type=disc>
+	<li><b>PhD students - current:</b><br>
+		Xiaohui Chen, FS22--<br>
+		Jiadi Du, FS22--<br>
+		Yasmine Mustafa, SP23--<br>
+		<!--Shyam S. Saravanan, SP24--<br-->
+		Qin Su, FS24--<br>
+		<!--Manoj Twarakavi, FS20--
+		Ronit Das, FS22--
+		Nuzaer Omar (BE, Chittagong University of Enginnering and Technology)<br>
+		Manish Yadav (Chongqing University of Posts and Telecommunications)-->
+
+	<br><a href="img/Group_photo_2024.jpg"><img src="img/Group_photo_2024-thumbnail.jpg" height=140 alt="Group photo 2024"></a>
+	<a href="img/Dean's_PhD_Award.jpg"><img src="img/Dean's_PhD_Award-thumbnail.jpg" height=140 alt="CEC Dean's PhD Scholar Award 2024"></a>
+	<a href="img/PAKDD24_award_ceremony.jpg"><img src="img/PAKDD24_award_ceremony-thumbnail.jpg" height=140 alt="PAKDD24 2024 Award Ceremony"></a>
+	<a href="img/TaoWu_Defense_20240611a.jpg"><img src="img/TaoWu_Defense_20240611a-thumbnail.jpg" height=120 alt="Tao Wu PhD Defense 2024-06-11"></a>
+	<a href="img/TaoWu_Defense_20240611b.jpg"><img src="img/TaoWu_Defense_20240611b-thumbnail.jpg" height=100 alt="Tao Wu PhD Defense 2024-06-11"></a></li>
+
+	<br><li><b>PhD students - graduated:</b><br>
+		<i>- United States:</i><br>
+		Mohamed Elmahallawy, Jan 2022--Feb 2024 (defended on March 1, 2024; <b>Assistant Professor since Aug 2024 in the Computer Science and Cybersecurity Department at Washington State University, Tri-Cities</b>)<br>
+		<div style="margin-left:2%;"><font color=LIGHTSLATEGRAY size=2>Thesis: <i>Secure and privacy-preserving federated learning with rapid convergence in LEO satellite networks</i></font></div>
+		Tao Wu (co-advised with Prof. Donald Wunsch), Aug 2021--Jun 2024 (defended on June 11, 2024; currently postdoc)<br>
+		<div style="margin-left:2%;"><font color=LIGHTSLATEGRAY size=2>Thesis: <i>Adversarial Transferability and Generalization in Robust Representation Learning</i></font></div>
+		<i>- Singapore:</i><br>
+		Leonit Zeynalvand (co-supervised with Prof. Jie Zhang at Nanyang Technological University), 2016-2021; currently with A*STAR<br>
+		<div style="margin-left:2%;"><font color=LIGHTSLATEGRAY size=2>Thesis: <i>A holistic approach to trust and reputation management in big data</i></font></div>
+		Mao V. Ngo (co-supervised with Prof. Tony Quek at Singapore University of Technology and Design), 2018-2020; currently with SUTD<br>
+		<div style="margin-left:2%;"><font color=LIGHTSLATEGRAY size=2>Thesis: <i>Mobile edge computing with machine learning for the Internet of Things</i></font></div></li>
+
+	<br><li><b>Master's students - graduated:</b><br>
+		<!--B.Tech. Indian Institute of Technology Madras-->
+		Raja Sunkara (Missouri University of Science and Technology), Aug'21-May'23<br>
+		<div style="margin-left:2%;"><font color=LIGHTSLATEGRAY size=2>Thesis: <i>Computer vision in adverse conditions: small objects, low-resolution images, and edge deployment</i></font></div>
+		Shyam Sundar Saravanan (Missouri University of Science and Technology), Jan'21-May'23</li>
+		<div style="margin-left:2%;"><font color=LIGHTSLATEGRAY size=2>Thesis: <i>Time series anomaly detection using generative adversarial networks</i></font></div></li>
+	<!--li><b>Visiting scholars</b><br>
+Yathreb Bouazizi (Imperial College London, UK; visiting scholar 2019)
+- Research Topic: LPWAN modeling and performance analysis for smart urban habitat analytics
+KanWang (Southeast University; visiting scholar 2014-2015)
+- Research Topic: Participatory sensing for large-scale heterogeneous sensing and sense-making
+		Qing Liu (PhD student visited in 2014, National University of Singapore)<br>
+		<div style="margin-left:2%;"><font color=LIGHTSLATEGRAY size=2>Research Topic: <i>Game theory and mechanism design</i></font></div>
+		Chunchun Wu (Master student visited in 2014, Shanghai Jiao Tong University)<br>
+		<div style="margin-left:2%;"><font color=LIGHTSLATEGRAY size=2>Research Topic: <i>Machine learning in reputation systems</i></font></div></li-->
+  </ul>
+
+<a name=serv id=serv></a>
+  <hr size=2 width="100%" align=center>
+
+  <p><b><span style='font-size:18pt'>Professional Services</span></b></p>
+  <ul type=disc>
+	<li><b>Grant Panelist / Reviewer:</b><br>
+		<a class="two" href="https://www.nsf.gov">National Science Foundation</a> (NSF), Panelist, 2021<br>
+		<a class="two" href="http://www.europaregion.info/en/euregio-science-fund.asp">Euregio Science Fund</a> (EGTC, Europe), Reviewer, 2021<br>
+		<a class="two" href="https://www.energy.gov">U.S. Department of Energy</a> (DOE), ASCR, Reviewer, 2022<br>
+		<a class="two" href="https://www.energy.gov">U.S. Department of Energy</a> (DOE), Idaho National Lab, Reviewer, 2023<br>
+		<a class="two" href="https://www.energy.gov">U.S. Department of Energy</a> (DOE), ASCR, "Adv in AI for Science", Reviewer, 2024
+	</li><p>
+
+	<li><b>External P&T and Award Reviewer:</b><br>
+		Faculty Promotion & Tenure external reviewer, University of Washington, 2021<br>
+		Ralph E. Powe Junior Faculty Award reviewer, ORAU, 2024 <!--Oak Ridge Associated Universities-->
+	</li><p>
+
+	<li><b>External PhD Thesis Examiner:</b><br>
+		Deakin University, Australia, 2023-24<br>
+		DA-IICT, India, 2023
+	</li><p>
+
+	<li><b>Journal Editorial Board:</b><br>
+		Area Editor, <a class="two" href="https://www.journals.elsevier.com/pervasive-and-mobile-computing/editorial-board">Pervasive and Mobile Computing</a> (Elsevier), 2021-present. <a class="two" href="https://www.sciencedirect.com/journal/pervasive-and-mobile-computing/about/editorial-board">&#8663</a><br><!--&#8618 -->
+		
+		Area Editor, <a class="two" href="https://www.journals.elsevier.com/ad-hoc-networks/editorial-board">Ad Hoc Networks</a>, 2019-present. <a class="two" href="https://www.sciencedirect.com/journal/ad-hoc-networks/about/editorial-board">&#8663</a><br>
+
+		Associate Editor, <a class="two" href="https://www.worldscientific.com/page/wsarai/editorial-board">Annual Review of Artificial Intelligence</a>, 2021-present.<br>
+
+		Associate Editor, <a class="two" href="https://www.hindawi.com/journals/wcmc/editors/">Wireless Communications and Mobile Computing</a>, 2018-present. <a class="two" href="https://onlinelibrary.wiley.com/journal/15308677">&#8663</a><br>
+
+		Associate Editor, <a class="two" href="http://www.mdpi.com/journal/telecom">Telecom</a>, 2018-present.<br>
+
+		Guest Editor, <a class="two" href="https://www.mdpi.com/journal/sensors">Sensors</a> <font size=2><i>(<a class="two" href="https://www.mdpi.com/journal/sensors/special_issues/S09PQG258Y">Localization and Tracking for Internet of Things</a>)</i></font>, 2022-2023.<br>
+
+		<!--img src="img/mdpi.png"-->
+		Guest Editor, <a class="two" href="https://www.hindawi.com/journals/misy/">Mobile Information Systems</a> <font size=2><i>(<a class="two" href="https://www.hindawi.com/journals/misy/2016/8731802/">Big Data Management and Analytics for Mobile Crowd Sensing</a>)</i></font>, 2015-2016.<br><!--for Special Issue on "<a class="two" href="https://www.hindawi.com/journals/misy/2016/8731802/"><i>Big data management and analytics for mobile crowd sensing</i></a>" [<a class="two" href="http://downloads.hindawi.com/journals/misy/2016/8731802.pdf">pdf</a>]-->
+		<!--[Transferred from IOS Press (Netherlands) to Hindawi (NY, USA) since 2015 (http://www.iospress.nl/journal/mobile-information-systems/)]
+		(<a class="two" href="http://downloads.hindawi.com/journals/misy/si/853963.pdf">pdf CFP</a>)-->
+
+		Guest Editor, <a class="two" href="http://www.mdpi.com/journal/jsan">Journal of Sensor and Actuator Networks</a> <font size=2><i>(<a class="two" href="http://www.mdpi.com/journal/jsan/special_issues/MACPWSN">MAC Protocols in Wireless Sensor Networks</a>)</i></font>, 2015-2016.<!--for Special Issue on "<a class="two" href="http://www.mdpi.com/journal/jsan/special_issues/MACPWSN"><i>MAC Protocols in Wireless Sensor Networks</i></a>"-->
+	</li><p>
+
+	<li><b>Journal Advisory Board:</b><br>
+		<a class="two" href="http://www.mdpi.com/journal/sci">Sci</a>: 2018-present.
+	</li><p>
+
+	<li><b>Conference Organizing Committee</b><br>
+		<ul type='square'>
+			<li><b>Program Chair:</b><br>
+				<a class="two" href="https://ieeexplore.ieee.org/document/7457025">IEEE PerCom CASPer 2016</a><!--(Crowd Assisted Sensing, Pervasive Systems and Communications)--><br>
+				<!--a href="http://www.imb.ucl.ac.uk/events/casper2016/" target=_blank-->
+				<a class="two" href="comnet-iot2016/index.html">ACM ComNet-IoT 2016</a><!--(In conjunction with <a class="two" href="http://ares.smu.edu.sg/icdcn16">ICDCN 2016</a>) (Computing and Networking for Internet of Things)--><br>
+				<a class="two" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6827583">IEEE ISSNIP PSC Symposium 2014 </a>
+			</li>
+			<li><b>Workshops Chair:</b><br>
+				<a class="four" href="https://secon2024.ieee-secon.org/committees/organizing-committee">IEEE SECON 2024</a>
+			</li>
+			<li><b>Publication Chair:</b><br>
+				<a class="two" href="https://www.percom.org/2024/organizing-committee/">IEEE PerCom 2024</a> (<a class="one" href="misc/PerCom_2024_publication_chair.pdf">honor of service</a>)<br>
+				<a class="two" href="https://www.percom.org/2023/organizing-committee/">IEEE PerCom 2023</a>
+			</li>
+			<!--li><b>Local arrangement committee:</b><br>
+				<a class="two" href="https://ieeexplore.ieee.org/document/7106896">IEEE ISSNIP 2015</a> <font size=2>(International Conference on Intelligent Sensors, Sensor Networks, and Information Processing)</font><br>
+				<a class="two" href="https://ieeexplore.ieee.org/document/6827583">IEEE ISSNIP 2014</a>
+			</li-->
+		</ul>
+	</li><p>
+
+	
+	<li><b>Conference Program Committee:</b><br>
+		2025: ICC<br>
+		2024: <a class="four" href="https://aaai.org/aaai-conference/">AAAI</a> | ICC<br>
+		2023: WoWMoM | ICC | WCNC<br>
+		2022: <a class="four" href="https://infocom2022.ieee-infocom.org/committees/tpc-members">INFOCOM</a> | WoWMoM | ICC | WCNC<br>
+		2021: <a class="four" href="https://infocom2021.ieee-infocom.org/committees/tpc-members">INFOCOM</a> | <a class="four" href="https://aaai.org/conference/aaai/aaai-21/">AAAI</a> | <a class="two" href="http://wowmom2021.iit.cnr.it/committees.html">WoWMoM</a> | <a class="two" href="https://icc2021.ieee-icc.org">ICC</a> | <a class="two" href="http://wcnc2021.ieee-wcnc.org">WCNC</a> | MASS | <a class="two" href="https://pstnet.ca/pst2021/organizers.html">PST</a><br>
+		2020: <a class="four" href="http://infocom2020.ieee-infocom.org/committee/tpc-members">INFOCOM</a> | <a class="two" href="http://www.cs.ucc.ie/wowmom2020/committees/">WoWMoM</a> | <a class="two" href="https://icc2020.ieee-icc.org">ICC</a> | <a class="two" href="http://wcnc2020.ieee-wcnc.org">WCNC</a> | <a class="two" href="https://sites.google.com/view/comnet-iot2020">ComNet-IoT</a> | <a class="two" href="https://pstnet.ca/pst2020/organizers.html">PST</a><br>
+		2019: <a class="four" href="http://infocom2019.ieee-infocom.org/committee/tpc-members">INFOCOM</a> | <a class="two" href="http://cs.ucf.edu/wowmom2019/">WoWMoM</a> | <a class="two" href="http://icc2019.ieee-icc.org">ICC</a> | <a class="two" href="http://wcnc2019.ieee-wcnc.org">WCNC</a> | <a class="two" href="https://sites.google.com/view/mass2019/technical-program-committee?authuser=0">MASS</a> | <!--a href="http://mswimconf.com/2019/"><font color=black-->MSWiM<!--/font></a--> | <a class="two" href="http://plus.shibaura-it.ac.jp/conf/casper2019">PerCom CASPer</a> | <a class="two" href="https://sites.google.com/view/comnet-iot2019">ComNet-IoT</a> | IWCMC-ML <font size=1>(machine learning)</font> | <a class="two" href="https://pstnet.ca/pst2019/organizers.html">PST</a><br>
+		2018: <a class="four" href="http://infocom2018.ieee-infocom.org/committee/tpc-members">INFOCOM</a> | <a class="two" href="http://it.murdoch.edu.au/wowmom2018">WoWMoM</a> | <a class="two" href="https://www.computer.org/csdl/proceedings-article/mass/2018/558000z021/17D45Xtvpa4">MASS</a> | <a class="two" href="http://globecom2018.ieee-globecom.org">Globecom</a> | <a class="two" href="http://icccn.org/icccn18/">ICCCN</a> | <a class="two" href="http://casper2018.uns.ac.rs">PerCom CASPer</a> | <a class="two" href="https://sites.google.com/view/comnetiot2018">ComNet-IoT</a> | <a class="two" href="http://pstnet.ca/PST2018.html">PST</a><br>
+		2017: <a class="two" href="http://paradise.site.uottawa.ca/DCOSS/">DCOSS</font></a> | <a class="two" href="http://casper2017.uns.ac.rs">PerCom CASPer</a> | <a class="two" href="http://ieee-smartworld.org/2017/uic/">UIC</a> <font size=1>(Ubiquitous Intelligence and Computing)</font><br>
+		2016: <a class="two" href="http://wcnc2016.ieee-wcnc.org">WCNC</a> | <a class="two" href="http://cs-conferences.acadiau.ca/mobispc-16/">MobiSPC</a> | <a class="two" href="https://sites.google.com/site/trustworkshop/trust2016">AAMAS Trust</a> | <a class="two" href="http://pst2016.unitec.ac.nz/">PST</a> <font size=1>(Privacy, Security and Trust)</font> | BIH <font size=1>(Brain Informatics and Health)</font><br>
+		2015: <a class="two" href="http://wcnc2015.ieee-wcnc.org">WCNC</a> | <a class="two" href="http://cs-conferences.acadiau.ca/mobispc-15/">MobiSPC</a> | <a class="two" href="http://www.senseapp.org/2015">SenseApp</a> | ICCVE | CCBD <font size=1>(Cloud Computing and Big Data)</font> | IBDC <font size=1>(Big Data in Crowdsensing)</font><br>
+		2014: WCNC | SenseApp | ICCVE | IOV <font size=1>(Internet of Vehicles)</font><br>
+		2013: WCNC | SenseApp | ICCVE | <a class="two" href="http://www.ami-conferences.org/2013/">AMI</a> <font size=1>(Ambient Intelligence)</font> | IoT-SC <font size=1>(IoT for Smart Cities)</font><br>
+		2012: ICCVE | KICSS <font size=1>(Knowledge, Information and Creativity Support Systems)</font>
+	</li><p>
+
+<li><b>Conference Session Chair:</b><br>
+		AAAI 2024<br>
+		AAAI 2024<br>
+		PAKDD 2023<br>
+		IEEE ICC 2023: <a class="two" href="https://icc2023.ieee-icc.org/program/technical-symposium-program/symposia-tuesday-30-may-2023"><i>Learning & Networks</i></a><br>
+		IEEE INFOCOM 2022<br>
+		IEEE INFOCOM 2021<br>
+		IEEE INFOCOM 2020: <a class="two" href="https://duetone.org/infocom20/day/3/track/Track%20A#9-A"><i>Internet of Things</i></a>
+	</li><p>
+	<!--li><b>Session Chair</b>:<br>
+		<a href="http://www.ictc2012.org" target=_blank><font color=black>ICTC 2012</font></a></li><p-->
+
+	<li><b>Journal Reviewer</b> <font size=2>(<a class="one" href="misc/Top_Reviewer_CS_2018.pdf">Top 1% Reviewer in Computer Science 2017-2018</a>)</font>:<br>
+		IEEE Transactions on Mobile Computing (TMC) (2009--present)<br>
+		IEEE Transactions on Affective Computing (TAFFC) (2023--present)<br>
+		IEEE Transactions on Parallel and Distributed Systems (TPDS) (2020--2021)<br>
+		IEEE Transactions on Wireless Communications (TWC) (2013--2014)<br>
+		IEEE Transactions on Vehicular Technology (TVT) (2010--2014)<br>
+		IEEE Transactions on Cognitive Communications and Networking (TCCN) (2016--2018)<br>
+		IEEE Transactions on Network and Service Management (TNSM) (2017--2019)<br>
+		IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI) (2024--present)<br>
+		IEEE Transactions on Neural Networks and Learning Systems (TNNLS) (2023--present)<br>
+		IEEE Transactions on Knowledge and Data Engineering (TKDE) (2018--present)<br>
+		IEEE Transactions on Dependable and Secure Computing (TDSC) (2022--present)<br>
+		IEEE Internet of Things Journal (IOT-J) (2019--present)<br>
+		IEEE Journal on Selected Areas in Communications (JSAC) (2008--)<br>
+		IEEE Signal Processing Magazine (2021)<br>
+		IEEE Network (2015--2019)<br>
+		IEEE Computer (2018--2019)<br>
+		IEEE Pervasive Computing (2017--2019)<br>
+		IEEE Journal on Selected Areas in Communications (JSAC) (2008--2009)<br>
+		IEEE/ACM Transactions on Networking (ToN) (2010--2012; 2023-present)<br>
+		ACM Transactions on Sensor Networks (TOSN) (2021--present)<br>
+		ACM Transactions on Privacy and Security (TOPS) (2021--present)<br>
+		ACM Transactions on Intelligent Systems and Technology (TIST) (2021--present)<br>
+		ACM Transactions on Internet Technology (TOIT) (2018--present)<br>
+		ACM Mobile Computing and Communications Review (MC2R) (2009--2010)<br>
+		ACM/SAGE - <a class="two" href="https://www.acm.org/media-center/2020/august/collective-intelligence-new-journal">Collective Intelligence</a> (2021)<br>
+		Elsevier - Pervasive and Mobile Computing (PMC) (2013--2019; Editor thereafter) <font size=2>[<a class="one" href="misc/PMC_Outstanding_Reviewer_2016.pdf">Outstanding Reviewer 2016</a>]</font><br>
+		Elsevier - Ad Hoc Networks (ADHOC) (2013--2019; Editor thereafter)<br>
+		Elsevier - Computer Networks (COMNET) (2008--2019)<br>
+		Elsevier - Computer Communications (COMCOM) (2017--2019)<br>
+		Elsevier - Journal of Parallel and Distributed Computing (JPDC) (2018--2021)<br>
+		Elsevier - Information Systems (IS) (2018--2019)<br>
+		Elsevier - Future Generation Computer Systems (FGCS) (2018--2020)<br>
+		Elsevier - Digital Communications and Networks (DCAN) (2018--2019)<br><!--formerly Elsevier, now KeAi-->
+		Springer - Artificial Intelligence Review (2023--present) (2022 IF: 12.0)<br>
+		Springer - Peer-to-Peer Networking and Applications (PPNA) (2020)<br>
+		MDPI - Artificial Intelligence (2021)<br>
+		MDPI - Applied Sciences (2021)<br>
+		MDPI - Healthcare (2021)<br>
+		MDPI - Remote Sensing (2020)<br>
+		MDPI - Sensors (2016--present)<br>
+		Wiley - Wireless Communications and Mobile Computing (WCMC) (2018--2021)<br>
+		Wiley - International Journal of Network Management (NEM) (2020)<br>
+		Wiley - Discrete Dynamics in Nature and Society (2019)<br>
+		IET Intelligent Transport Systems (ITS) (2018)<br>
+		IEICE Transactions on Fundamentals (2014)
+	</li><p>
+
+	<li><b>Conference Reviewer</b> (besides TPC):<br>
+		SECON 2024, ICNP 2021, MSWiM 2018, PIMRC 2018, Globecom 2017, ICDM 2016, ACM KDD 2015, MASS 2014, ICC 2013, Globecom 2012, DySPAN 2010, INFOCOM 2009, SECON 2009, Globecom 2009, ICC 2009, INFOCOM 2008, SECON 2008, MASS 2008, ICDCS
+       2008, Globecom 2008, MobiCom 2007, MSWiM 2007, MSWiM 2006... (<a class="two" href="all-conf-reviews.txt">full list</font></a>)
+	</li><p>
+  </ul>
+
+<a name=misc id=misc></a>
+  <hr size=2 width="100%" align=center>
+
+  <p><b><span style='font-size:18pt'>Miscellaneous</span></b></p>
+  <ul type="darkcircle">
+
+  	<!--li>Advice on Research: compiled by <a class="one" href="https://homes.cs.washington.edu/~mernst/advice/">Ernst</a>, <a class="one" href="https://www.eecs.harvard.edu/htk/phdadvice/">Kung</a>, <a class="one" href="https://taoxie.cs.illinois.edu/advice.htm">Xie</a>, <a class="one" href="http://www.cs.cmu.edu/afs/cs.cmu.edu/user/mleone/web/how-to.html">Leone</a>.</li-->
+		<li>CORE Conference Ranking (<a class="one" href="http://portal.core.edu.au/conf-ranks/">searchable database</a>): an 8-level rigorous assessment system of conferences in computer science and engineering, curated by <a class="one" href="https://www.core.edu.au/conference-portal">CORE</a>.</li>
+			<!--div style="margin-left:2%;"><font color=LIGHTSLATEGRAY>The <a class="one" href="http://portal.core.edu.au/jnl-ranks/?search=&by=all&source=CORE2020&sort=arank&page=1">Computer Science <u>journals</u> ranking</a> has been discontinued since Feb 2022 but is still a useful reference.</i></font></div-->
+			<!--The <i>Computing Research and Education</i> (CORE) Association of Australasia is an association of university departments of computer science in Australia and New Zealand.-->
+		<!--li>Top conferences: <a class="one" href="https://research.com/conference-rankings/computer-science/machine-learning">Machine Learning & Artificial Intelligence</a> | <a class="one" href="https://research.com/conference-rankings/computer-science/network-communication">Computer Networks & Communications</a> | <a class="one" href="https://research.com/conference-rankings/computer-science/computer-vision">Image Processing & Computer Vision</a> | <a class="one" href="https://research.com/conference-rankings/computer-science/computer-security-cryptography">Computer Security & Cryptography</a></li>
+  	<li>Top journals: <a class="one" href="https://research.com/journals-rankings/computer-science/machine-learning">Machine Learning & Artificial Intelligence</a> | <a class="one" href="https://research.com/journals-rankings/computer-science/network-communication">Computer Networks & Communications</a> | <a class="one" href="https://research.com/journals-rankings/computer-science/computer-vision">Image Processing & Computer Vision</a> | <a class="one" href="https://research.com/journals-rankings/computer-science/computer-security-cryptography">Computer Security & Cryptography</a></li-->
+		<!--li><a class="one" href="https://www.aminer.cn/ranks/conf?domain_ids=624521982faec9f93681e73b&type=ccf&search=&metric=google_h5_index&order=descend&ccf_level=A,B,C,other&category=Conference">Conferences and journals ranking (AI)</a></li-->
+  	<li>Conference acceptance rates and participation statistics: <!--a class="one" href="https://github.com/lixin4ever/Conference-Acceptance-Rate">Artificial Intelligence</a> | <a class="one" href="http://faculty.cs.tamu.edu/guofei/sec_conf_stat.htm">Security</a> |--> <a class="one" href="http://www.cs.ucsb.edu/~almeroth/conf/stats">Networking</a><!-- | <a class="one" href="http://www.lamsade.dauphine.fr/~sikora/ratio/confs.php">Theoretical Computer Science</a></li-->
+		<li>My <a class="one" href="https://dblp.org/pid/77/2007">DBLP</a> <font color=LIGHTSLATEGRAY>(BiBTeX available at the 2nd icon in front of each paper)</font></li> <!--http://dblp.org/pers/hd/l/Luo:Tie-->
+		<!--https://www.semanticscholar.org/author/Tie-Luo/2660126-->
+  </ul>
+
+  </td>
+ </tr>
+</table>
+
+
+<p><font color=LIGHTSLATEGRAY size=2>[Copyright Notice] Papers downloaded from this site are restricted to personal or classroom use only and not for profit or commercial advantage; any commercial usage must obtain written permission from the authors. Users shall refrain from any copyright infringements and adhere to relevant policies stipulated by corresponding organizations such as IEEE, ACM, AAAI, Elsevier, Springer, and World Scientific.</font>
+
+<p style="margin-left: 20" align="center"><font face="Arial" color="#000000" size="1">
+&copy 2010-2024, Thomas T. Luo. All rights reserved. </font></p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0" background="img/botline.gif">
+  <tr>
+    <td width="100%"><img border="0" src="img/botline.gif" width="41" height="12"></td>
+  </tr>
+</table>
+
+<!--/basefont-->
+
+<!-- Start of StatCounter Code for Default Guide -->
+<script type="text/javascript">
+var sc_project=7668739; 
+var sc_invisible=1; 
+var sc_security="1dd74751"; 
+var scJsHost = (("https:" == document.location.protocol) ?
+"https://secure." : "http://www.");
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<noscript><div class="statcounter"><a title="free hit counter" href="http://statcounter.com/" target="_blank">
+<img class="statcounter" src="//c.statcounter.com/7668739/0/1dd74751/1/" alt="free hit counter"></a></div>
+</noscript>
+<!-- End of StatCounter Code for Default Guide -->
+
+</body>
+
+</html>

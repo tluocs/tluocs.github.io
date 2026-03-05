@@ -18,3 +18,7 @@ a.four:link { color: BLACK; text-decoration:underline; text-decoration-style:dot
 a.four:visited { color: BLACK; }
 a.four:hover { color: AQUA; }
 a.four:visited:hover { color: AQUA; }
+.thin-underline {
+  text-decoration: underline;
+  text-decoration-thickness: 0.5px; /* thinner line */
+}

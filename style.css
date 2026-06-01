@@ -10,12 +10,12 @@ a.two:link { color: BLACK; text-decoration:none; }
 a.two:visited { color: BLACK; }
 a.two:hover { color: AQUA; }
 a.two:visited:hover { color: AQUA; }
-a.three:link { color: CHOCOLATE; text-decoration:underline; text-decoration-style:dotted; text-decoration-thickness:1px}
-a.three:visited { color: CHOCOLATE; }
-a.three:hover { color: AQUA; }
-a.three:visited:hover { color: AQUA; }
-a.four:link { color: BLACK; text-decoration:underline; text-decoration-style:dotted; text-decoration-thickness:1px}
-a.four:visited { color: BLACK; }
+a.three:link { text-decoration:underline; text-decoration-style:dashed; text-decoration-thickness:.5px}
+a.three:visited { color: lightslategray; }
+a.three:hover { color: aqua; }
+a.three:visited:hover { color: aqua; }
+a.four:link { color: BLACK; text-decoration:underline; text-decoration-style:dashed; text-decoration-thickness:.5px}
+a.four:visited { color: black; }
 a.four:hover { color: AQUA; }
 a.four:visited:hover { color: AQUA; }
 .thin-underline {
